@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+*.log
+.env*.local
+.vercel
+
+# Original Wix media masters (~288 MB) stay local; the site uses the optimised
+# derivatives in public/images/site (regenerate with `npm run images`).
+docs/source-audit/assets/wix-media/

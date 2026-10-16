@@ -1,0 +1,387 @@
+/* Shared by /200yogateachertraining and /300yogateachertraining */
+
+.big {
+  font-size: var(--t-display);
+  letter-spacing: 0.02em;
+  line-height: 0.95;
+}
+
+.small {
+  font-size: var(--t-h2);
+  margin-top: 0.4rem;
+}
+
+/* ---------------------------------------------------------- 200h hero */
+.hero200 {
+  position: relative;
+  min-height: clamp(480px, 76vh, 800px);
+  display: flex;
+  align-items: flex-end;
+  color: var(--cream);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero200 > figure {
+  z-index: -2;
+}
+
+.hero200Scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to top, rgb(24 24 24 / 0.78) 0%, rgb(24 24 24 / 0.35) 45%, rgb(24 24 24 / 0.05) 75%);
+}
+
+.hero200Badge {
+  position: absolute;
+  top: clamp(1rem, 3vw, 2.5rem);
+  right: var(--gutter);
+  width: clamp(80px, 9vw, 132px);
+  height: auto;
+  background: transparent !important;
+}
+
+.hero200Inner {
+  display: grid;
+  gap: 2rem;
+  padding-block: 3rem clamp(2.5rem, 5vw, 4.5rem);
+}
+
+@media (min-width: 960px) {
+  .hero200Inner {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+    align-items: end;
+    gap: 4rem;
+  }
+}
+
+.hero200Inner .eyebrow,
+.hero300Panel .eyebrow {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.hero200Title {
+  text-wrap: initial;
+}
+
+.hero200Dates {
+  display: grid;
+  gap: 1.5rem;
+  justify-items: start;
+}
+
+/* ---------------------------------------------------------- 300h hero */
+.hero300 {
+  display: grid;
+  background: var(--teal);
+  color: var(--cream);
+}
+
+@media (min-width: 960px) {
+  .hero300 {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    min-height: clamp(480px, 70vh, 720px);
+  }
+}
+
+.hero300Panel {
+  display: grid;
+  gap: 1.6rem;
+  align-content: center;
+  padding: clamp(2.5rem, 5vw, 4rem) var(--gutter);
+}
+
+@media (min-width: 960px) {
+  .hero300Panel {
+    padding-left: max(var(--gutter), calc((100vw - var(--max)) / 2));
+    padding-right: clamp(2rem, 4vw, 4rem);
+  }
+}
+
+.hero300Title {
+  text-wrap: initial;
+}
+
+.hero300Title .big {
+  font-size: var(--t-display);
+}
+
+.hero300Media {
+  position: relative;
+  min-height: 62vw;
+}
+
+@media (min-width: 960px) {
+  .hero300Media {
+    min-height: 0;
+  }
+}
+
+.hero300Badge {
+  position: absolute;
+  top: clamp(1rem, 3vw, 2.5rem);
+  right: var(--gutter);
+  width: clamp(80px, 9vw, 132px);
+  height: auto;
+  background: transparent !important;
+}
+
+/* ---------------------------------------------------------- Quote block */
+.quoteBlock {
+  display: grid;
+  background: var(--cream);
+}
+
+@media (min-width: 960px) {
+  .quoteBlock {
+    grid-template-columns: 1fr 1fr;
+    min-height: 28rem;
+  }
+
+}
+
+.quoteBlockReverse .quoteMedia {
+  order: 2;
+}
+
+.quoteMedia {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 960px) {
+  .quoteMedia {
+    aspect-ratio: auto;
+  }
+}
+
+.quoteText {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: clamp(2.5rem, 5vw, 5rem) var(--gutter);
+  font-family: var(--serif);
+  font-size: var(--t-quote);
+  line-height: 1.25;
+}
+
+@media (min-width: 960px) {
+  .quoteText {
+    padding-inline: clamp(3rem, 6vw, 7rem);
+  }
+}
+
+/* ---------------------------------------------------------- Strips */
+.strip {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 700px) {
+  .strip {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+/* ---------------------------------------------------------- Transformation (sand band) */
+/* Heading left, the two statements stacked right: one compact block, no empty half */
+.transform {
+  background: var(--sand);
+  padding-block: var(--space-block);
+}
+
+.transformInner {
+  display: grid;
+  gap: 1.75rem;
+}
+
+@media (min-width: 900px) {
+  .transformInner {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: center;
+  }
+}
+
+.transformTitle {
+  font-size: var(--t-h2);
+  line-height: 1.08;
+  color: var(--ink);
+}
+
+.transformList {
+  list-style: none;
+  border-top: 1px solid var(--ink);
+}
+
+.transformItem {
+  display: grid;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--rule-strong);
+  font-size: var(--fs-base);
+  line-height: 1.65;
+}
+
+.transformSub {
+  font-size: var(--t-h3);
+  margin-bottom: 0.4rem;
+}
+
+/* ---------------------------------------------------------- Curriculum */
+.curriculum {
+  padding-block: var(--space-section);
+}
+
+.curricFooterTitle {
+  font-family: var(--serif);
+  font-size: var(--t-h3);
+  line-height: 1.1;
+}
+
+.caps {
+  font-size: var(--fs-sm);
+  letter-spacing: 0.08em;
+  line-height: 1.75;
+}
+
+.curriculumDark {
+  padding-block: var(--space-section);
+  background: var(--teal);
+  color: var(--cream);
+}
+
+/* ---------------------------------------------------------- 200 vs 300 */
+.difference {
+  padding-block: var(--space-block);
+  background: var(--cream);
+}
+
+/* Heading left, the two comparisons stacked right with small 200 / 300 markers */
+.differenceInner {
+  display: grid;
+  gap: 1.75rem;
+}
+
+@media (min-width: 900px) {
+  .differenceInner {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: center;
+  }
+}
+
+.differenceTitle {
+  font-size: var(--t-h2);
+  line-height: 1.08;
+}
+
+.differenceList {
+  border-top: 1px solid var(--ink);
+}
+
+.differenceItem {
+  display: grid;
+  gap: 0.5rem 1.5rem;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--rule-strong);
+  font-size: var(--fs-base);
+  line-height: 1.7;
+}
+
+@media (min-width: 560px) {
+  .differenceItem {
+    grid-template-columns: 5.5rem 1fr;
+  }
+}
+
+.differenceNum {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--serif);
+  font-size: var(--t-h3);
+  line-height: 1;
+  color: var(--teal);
+}
+
+.differenceNum span {
+  font-family: var(--sans);
+  font-size: var(--t-label);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0.4rem;
+  color: var(--grey-700);
+}
+
+/* ---------------------------------------------------------- Graduation + closing */
+.graduation {
+  padding-block: var(--space-block);
+}
+
+.graduationMedia {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 700px) {
+  .graduationMedia {
+    aspect-ratio: 16 / 8;
+  }
+}
+
+.closing {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 700px) {
+  .closing {
+    aspect-ratio: 21 / 8;
+  }
+}
+
+/* ---------------------------------------------------------- Iyengar band */
+.iyengar {
+  position: relative;
+  min-height: clamp(420px, 66vh, 700px);
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.iyengar > figure:first-child {
+  z-index: -2;
+}
+
+.iyengarScrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgb(24 24 24 / 0.5);
+}
+
+.iyengarInner {
+  margin-block: 0;
+  padding-block: 4rem;
+  text-align: center;
+}
+
+.iyengarInner blockquote {
+  margin: 0;
+}
+
+.iyengarQuote {
+  font-family: var(--serif);
+  font-size: var(--t-statement);
+  line-height: 1.12;
+  max-width: 20ch;
+  margin-inline: auto;
+}
+
+.iyengarCite {
+  margin-top: 2rem;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}

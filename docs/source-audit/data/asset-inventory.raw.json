@@ -1,0 +1,1260 @@
+[
+ {
+  "id": "01c3aff52f2a4dffa526d7a9843d46ea.png",
+  "pages": [
+   "200ytt",
+   "300ytt",
+   "aboutus",
+   "book-online",
+   "cat-all",
+   "cat-props",
+   "contact",
+   "home",
+   "recovering",
+   "svc-1",
+   "svc-2",
+   "svc-3",
+   "svc-alignment",
+   "yogaclass"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "Instagram"
+  ],
+  "places": [
+   "d:home@y161 20x20 SECTION#comp-le8hx3er",
+   "d:home@y8251 25x25 FOOTER#SITE_FOOTER",
+   "d:200ytt@y161 20x20 SECTION#comp-le8hx3er",
+   "d:200ytt@y11192 25x25 FOOTER#SITE_FOOTER",
+   "d:300ytt@y161 20x20 SECTION#comp-le8hx3er",
+   "d:300ytt@y12388 25x25 FOOTER#SITE_FOOTER",
+   "d:recovering@y161 20x20 SECTION#comp-le8hx3er",
+   "d:recovering@y5993 25x25 FOOTER#SITE_FOOTER",
+   "d:yogaclass@y161 20x20 SECTION#comp-le8hx3er",
+   "d:yogaclass@y4231 25x25 FOOTER#SITE_FOOTER",
+   "d:aboutus@y161 20x20 SECTION#comp-le8hx3er",
+   "d:aboutus@y4618 25x25 FOOTER#SITE_FOOTER",
+   "d:contact@y161 20x20 SECTION#comp-le8hx3er",
+   "d:contact@y1195 25x25 FOOTER#SITE_FOOTER",
+   "d:book-online@y161 20x20 SECTION#comp-le8hx3er",
+   "d:book-online@y1601 25x25 FOOTER#SITE_FOOTER",
+   "d:svc-alignment@y161 20x20 SECTION#comp-le8hx3er",
+   "d:svc-alignment@y1455 25x25 FOOTER#SITE_FOOTER",
+   "m:home@y65 20x20 HEADER#SITE_HEADER",
+   "m:home@y11217 20x20 FOOTER#SITE_FOOTER",
+   "m:200ytt@y65 20x20 HEADER#SITE_HEADER",
+   "m:200ytt@y12041 20x20 FOOTER#SITE_FOOTER",
+   "m:300ytt@y65 20x20 HEADER#SITE_HEADER",
+   "m:300ytt@y16110 20x20 FOOTER#SITE_FOOTER",
+   "m:recovering@y65 20x20 HEADER#SITE_HEADER",
+   "m:recovering@y5810 20x20 FOOTER#SITE_FOOTER",
+   "m:yogaclass@y65 20x20 HEADER#SITE_HEADER",
+   "m:yogaclass@y6628 20x20 FOOTER#SITE_FOOTER",
+   "m:aboutus@y65 20x20 HEADER#SITE_HEADER",
+   "m:aboutus@y6236 20x20 FOOTER#SITE_FOOTER",
+   "m:contact@y65 20x20 HEADER#SITE_HEADER",
+   "m:contact@y1273 20x20 FOOTER#SITE_FOOTER",
+   "m:book-online@y65 20x20 HEADER#SITE_HEADER",
+   "m:book-online@y2215 20x20 FOOTER#SITE_FOOTER",
+   "m:svc-alignment@y65 20x20 HEADER#SITE_HEADER",
+   "m:svc-alignment@y1536 20x20 FOOTER#SITE_FOOTER"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "0fdef751204647a3bbd7eaa2827ed4f9.png",
+  "pages": [
+   "200ytt",
+   "300ytt",
+   "aboutus",
+   "book-online",
+   "cat-all",
+   "cat-props",
+   "contact",
+   "home",
+   "recovering",
+   "svc-1",
+   "svc-2",
+   "svc-3",
+   "svc-alignment",
+   "yogaclass"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "Facebook"
+  ],
+  "places": [
+   "d:home@y161 20x20 SECTION#comp-le8hx3er",
+   "d:home@y8251 25x25 FOOTER#SITE_FOOTER",
+   "d:200ytt@y161 20x20 SECTION#comp-le8hx3er",
+   "d:200ytt@y11192 25x25 FOOTER#SITE_FOOTER",
+   "d:300ytt@y161 20x20 SECTION#comp-le8hx3er",
+   "d:300ytt@y12388 25x25 FOOTER#SITE_FOOTER",
+   "d:recovering@y161 20x20 SECTION#comp-le8hx3er",
+   "d:recovering@y5993 25x25 FOOTER#SITE_FOOTER",
+   "d:yogaclass@y161 20x20 SECTION#comp-le8hx3er",
+   "d:yogaclass@y4231 25x25 FOOTER#SITE_FOOTER",
+   "d:aboutus@y161 20x20 SECTION#comp-le8hx3er",
+   "d:aboutus@y4618 25x25 FOOTER#SITE_FOOTER",
+   "d:contact@y161 20x20 SECTION#comp-le8hx3er",
+   "d:contact@y1195 25x25 FOOTER#SITE_FOOTER",
+   "d:book-online@y161 20x20 SECTION#comp-le8hx3er",
+   "d:book-online@y1601 25x25 FOOTER#SITE_FOOTER",
+   "d:svc-alignment@y161 20x20 SECTION#comp-le8hx3er",
+   "d:svc-alignment@y1455 25x25 FOOTER#SITE_FOOTER",
+   "m:home@y65 20x20 HEADER#SITE_HEADER",
+   "m:home@y11217 20x20 FOOTER#SITE_FOOTER",
+   "m:200ytt@y65 20x20 HEADER#SITE_HEADER",
+   "m:200ytt@y12041 20x20 FOOTER#SITE_FOOTER",
+   "m:300ytt@y65 20x20 HEADER#SITE_HEADER",
+   "m:300ytt@y16110 20x20 FOOTER#SITE_FOOTER",
+   "m:recovering@y65 20x20 HEADER#SITE_HEADER",
+   "m:recovering@y5810 20x20 FOOTER#SITE_FOOTER",
+   "m:yogaclass@y65 20x20 HEADER#SITE_HEADER",
+   "m:yogaclass@y6628 20x20 FOOTER#SITE_FOOTER",
+   "m:aboutus@y65 20x20 HEADER#SITE_HEADER",
+   "m:aboutus@y6236 20x20 FOOTER#SITE_FOOTER",
+   "m:contact@y65 20x20 HEADER#SITE_HEADER",
+   "m:contact@y1273 20x20 FOOTER#SITE_FOOTER",
+   "m:book-online@y65 20x20 HEADER#SITE_HEADER",
+   "m:book-online@y2215 20x20 FOOTER#SITE_FOOTER",
+   "m:svc-alignment@y65 20x20 HEADER#SITE_HEADER",
+   "m:svc-alignment@y1536 20x20 FOOTER#SITE_FOOTER"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_3daa9adb0eff4310974900b4751ccbb7~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-217.jpg"
+  ],
+  "places": [
+   "d:200ytt@y3887 1440x600 SECTION#comp-liporjto",
+   "m:200ytt@y3918 320x330 SECTION#comp-liporjto"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_61e0b99561d54e909caa96e2a928c183~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "DSC09829 (1).jpg"
+  ],
+  "places": [
+   "d:200ytt@y10131 1440x880 SECTION#comp-liporjtu1",
+   "m:200ytt@y11563 320x330 SECTION#comp-liporjtu1"
+  ],
+  "dims": [
+   6000,
+   4000
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_7af292f0133c429fbb52c9f8aa4186c3~mv2.jpeg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "KakaoTalk_Photo_2023-06-15-17-23-44.jpeg"
+  ],
+  "places": [
+   "d:200ytt@y1255 960x440 SECTION#comp-kvme32de2",
+   "m:200ytt@y854 320x245 SECTION#comp-kvme32de2"
+  ],
+  "dims": [
+   3024,
+   4032
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_7b850625912844ff857a49235085f4ea~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-191.jpg"
+  ],
+  "places": [
+   "d:200ytt@y7187 1440x660 SECTION#comp-ldk9cy4z",
+   "m:200ytt@y9061 320x240 SECTION#comp-ldk9cy4z"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_8cce79108969465f92f0a20d25cb1ba3~mv2.png",
+  "pages": [
+   "200ytt",
+   "300ytt",
+   "aboutus",
+   "book-online",
+   "cat-all",
+   "cat-props",
+   "contact",
+   "home",
+   "recovering",
+   "svc-1",
+   "svc-2",
+   "svc-3",
+   "svc-alignment",
+   "yogaclass"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "Soul Logo Small.png"
+  ],
+  "places": [
+   "d:home@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:200ytt@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:300ytt@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:recovering@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:yogaclass@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:aboutus@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:contact@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:book-online@y46 80x80 SECTION#comp-le8j5t7z",
+   "d:svc-alignment@y46 80x80 SECTION#comp-le8j5t7z",
+   "m:home@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:200ytt@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:300ytt@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:recovering@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:yogaclass@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:aboutus@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:contact@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:book-online@y33 40x40 SECTION#comp-le8j5t7z",
+   "m:svc-alignment@y33 40x40 SECTION#comp-le8j5t7z"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_a6c3c09b094749c98ae517ce23c134a3~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-82.jpg"
+  ],
+  "places": [
+   "d:200ytt@y213 1440x680 SECTION#comp-liporjtk",
+   "m:200ytt@y275 320x330 SECTION#comp-liporjtk"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_ac4aa5c7c324427eb90deb4020b9f452~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "KakaoTalk_Photo_2023-06-10-16-08-26_edited.jpg"
+  ],
+  "places": [
+   "d:200ytt@y8716 1280x600 SECTION#comp-ldk9c53f",
+   "m:200ytt@y10453 320x240 SECTION#comp-ldk9c53f"
+  ],
+  "dims": [
+   3000,
+   1774
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_ad95d5b31fd24b568c1692c21204cd40~mv2.jpg",
+  "pages": [
+   "200ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [],
+  "places": [
+   "d:200ytt@y2582 1440x680 SECTION#comp-liporjtm1",
+   "m:200ytt@y2946 320x200 SECTION#comp-liporjtm1"
+  ],
+  "dims": [
+   3000,
+   2250
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_f5b4bc907ee049b9a6406afde396e821~mv2.png",
+  "pages": [
+   "200ytt",
+   "300ytt",
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "370-3700336_kula-collective-information-borrowed-transparent-background-yoga-alliance_edit"
+  ],
+  "places": [
+   "d:home@y365 151x151 SECTION#comp-liporju3",
+   "d:home@y2769 151x151 SECTION#comp-mmycjhfk1",
+   "d:200ytt@y230 151x151 SECTION#comp-liporjtk",
+   "d:300ytt@y230 151x151 SECTION#comp-mm8xwj3f",
+   "m:home@y295 100x100 SECTION#comp-liporju3",
+   "m:home@y3666 92x92 SECTION#comp-mmycjhfk1",
+   "m:200ytt@y295 100x100 SECTION#comp-liporjtk",
+   "m:300ytt@y295 100x100 SECTION#comp-mm8xwj3f"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_4355d70f02684f5e8f5150f4626fc390~mv2.jpeg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "WhatsApp Image 2026-02-22 at 17.26.54.jpeg"
+  ],
+  "places": [
+   "d:300ytt@y9832 1440x749 SECTION#comp-mm8xwje0",
+   "m:300ytt@y14521 320x240 SECTION#comp-mm8xwje0"
+  ],
+  "dims": [
+   2048,
+   1536
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_7d2eaf75a33449c4957a72315d4bd035~mv2.jpeg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "WhatsApp Image 2026-02-21 at 15.48.57.jpeg"
+  ],
+  "places": [
+   "d:300ytt@y2520 1440x680 SECTION#comp-mm8xwj79",
+   "m:300ytt@y3302 320x200 SECTION#comp-mm8xwj79"
+  ],
+  "dims": [
+   2048,
+   1536
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_7db642c422bb4f888bde70a806636c95~mv2.jpeg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "WhatsApp Image 2026-02-20 at 20.04.51 copy.jpeg"
+  ],
+  "places": [
+   "d:300ytt@y7000 1440x600 SECTION#comp-mm8xwj7j",
+   "m:300ytt@y4681 320x330 SECTION#comp-mm8xwj7j"
+  ],
+  "dims": [
+   1521,
+   1000
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_aab42992d39b4146b2188fba2a0e4023~mv2.jpg",
+  "pages": [
+   "300ytt",
+   "aboutus"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "IMG_6576.JPG"
+  ],
+  "places": [
+   "d:300ytt@y11327 1440x880 SECTION#comp-mm8xwjh2",
+   "d:aboutus@y1416 720x1140 SECTION#comp-lkf96ib1",
+   "m:300ytt@y15631 320x330 SECTION#comp-mm8xwjh2",
+   "m:aboutus@y2797 320x240 SECTION#comp-lkf96ib1"
+  ],
+  "dims": [
+   4000,
+   3000
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_c455675dd1694ac0a0ca4fc6af534f6f~mv2.jpg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-174.jpg"
+  ],
+  "places": [
+   "d:300ytt@y213 1440x680 SECTION#comp-mm8xwj3f",
+   "m:300ytt@y275 320x330 SECTION#comp-mm8xwj3f"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_d29a57c123874befa593c42dbb538eb6~mv2.jpg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-104.jpg"
+  ],
+  "places": [
+   "d:300ytt@y1114 960x440 SECTION#comp-mm8xwj5z",
+   "m:300ytt@y775 320x245 SECTION#comp-mm8xwj5z"
+  ],
+  "dims": [
+   6567,
+   4378
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_fa98fb06547b43a9a20e272f7338f795~mv2.jpeg",
+  "pages": [
+   "300ytt"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "WhatsApp Image 2026-02-22 at 17.26.51.jpeg"
+  ],
+  "places": [
+   "d:300ytt@y8383 1440x660 SECTION#comp-mm8xwja1",
+   "m:300ytt@y13129 320x240 SECTION#comp-mm8xwja1"
+  ],
+  "dims": [
+   2048,
+   1536
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_4b0455749d464b10b26ee51ceb5a39ba~mv2.jpg",
+  "pages": [
+   "aboutus"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-225.jpg"
+  ],
+  "places": [
+   "d:aboutus@y213 1440x680 SECTION#comp-liporjsf",
+   "m:aboutus@y275 320x330 SECTION#comp-liporjsf"
+  ],
+  "dims": [
+   6295,
+   4197
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_c3fcf6c9ab664ed28aaade5a6b2e418a~mv2.jpg",
+  "pages": [
+   "aboutus"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-1.jpg"
+  ],
+  "places": [
+   "d:aboutus@y2556 720x990 SECTION#comp-lfbq4pi01",
+   "m:aboutus@y4303 320x280 SECTION#comp-lfbq4pi01"
+  ],
+  "dims": [
+   4672,
+   7008
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_f3cf4e531f31427bb5dd4d3cd3c1ea62~mv2.jpg",
+  "pages": [
+   "aboutus"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-5.jpg"
+  ],
+  "places": [
+   "d:aboutus@y3546 720x891 SECTION#comp-lkeoo2wz",
+   "m:aboutus@y5808 320x280 SECTION#comp-lkeoo2wz"
+  ],
+  "dims": [
+   4672,
+   7008
+  ],
+  "bg": true
+ },
+ {
+  "id": "2b074052bbd24b6385f01ef23168ab53.jpg",
+  "pages": [
+   "book-online"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "name:2b074052bbd24b6385f01ef23168ab53.jpg"
+  ],
+  "places": [
+   "d:book-online@y946 262x176 SECTION#",
+   "m:book-online@y1231 258x170 SECTION#"
+  ],
+  "dims": [
+   4000,
+   2020
+  ],
+  "bg": false
+ },
+ {
+  "id": "59ae78be3b0a4f0fa7b3c77d21838160.jpg",
+  "pages": [
+   "book-online"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "name:59ae78be3b0a4f0fa7b3c77d21838160.jpg"
+  ],
+  "places": [
+   "d:book-online@y470 262x176 SECTION#",
+   "m:book-online@y424 258x170 SECTION#"
+  ],
+  "dims": [
+   3299,
+   3299
+  ],
+  "bg": false
+ },
+ {
+  "id": "614271_0385cf1a2c29427eb4ca6e507be2c4df~mv2.jpeg",
+  "pages": [
+   "book-online"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "name:614271_0385cf1a2c29427eb4ca6e507be2c4df~mv2.jpeg"
+  ],
+  "places": [
+   "d:book-online@y946 262x176 SECTION#",
+   "m:book-online@y1635 258x170 SECTION#"
+  ],
+  "dims": [
+   1280,
+   960
+  ],
+  "bg": false
+ },
+ {
+  "id": "b2f7ef303bfa46ffa607186d757eb73f.jpg",
+  "pages": [
+   "book-online"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "name:b2f7ef303bfa46ffa607186d757eb73f.jpg"
+  ],
+  "places": [
+   "d:book-online@y470 262x176 SECTION#",
+   "m:book-online@y828 258x170 SECTION#"
+  ],
+  "dims": [
+   5472,
+   3648
+  ],
+  "bg": false
+ },
+ {
+  "id": "614271_c6b8ee8108d346499e51d6173746cf68~mv2.jpeg",
+  "pages": [
+   "contact"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "WhatsApp Image 2021-03-13 at 22.39.45.jpeg"
+  ],
+  "places": [
+   "d:contact@y533 940x410 SECTION#comp-liporjrp",
+   "m:contact@y297 301x220 SECTION#comp-liporjrp"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_1d63e5949a20419193bebbefbcc6dfbb~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-227.jpg"
+  ],
+  "places": [
+   "d:home@y213 1440x637 SECTION#comp-liporju3",
+   "m:home@y275 320x361 SECTION#comp-liporju3"
+  ],
+  "dims": [
+   6519,
+   4346
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_1ec29382234d4d938937d89c5ac6d8f0~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-129.jpg"
+  ],
+  "places": [
+   "d:home@y4597 460x660 SECTION#comp-mmydz249",
+   "m:home@y6105 280x402 SECTION#comp-mmydz249"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_28bf6a8748964232bacaa16fc39efecc~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [],
+  "places": [
+   "d:home@y7530 404x540 SECTION#comp-m84kh47e",
+   "m:home@y10257 320x200 SECTION#comp-m84kh47e"
+  ],
+  "dims": [
+   1936,
+   2298
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_34acec6dd7ff4f58b25063830aba38f5~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "223BC678-00DA-4108-B0F0-D3A5802871AA.JPG"
+  ],
+  "places": [
+   "d:home@y7530 403x540 SECTION#comp-m84kh47e",
+   "m:home@y10828 320x200 SECTION#comp-m84kh47e"
+  ],
+  "dims": [
+   1440,
+   1800
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_579a41139ab744b5bfa72c071132260a~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "slide",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-153.jpg"
+  ],
+  "places": [
+   "d:home@y3945 1440x586 SECTION#comp-lisw7mh1",
+   "m:home@y5773 320x312 SECTION#comp-lisw7mh1",
+   "slide 1 of home slideshow",
+   "slide 2 of home slideshow",
+   "slide 3 of home slideshow",
+   "slide 4 of home slideshow",
+   "slide 5 of home slideshow",
+   "slide 6 of home slideshow",
+   "slide 7 of home slideshow",
+   "slide 8 of home slideshow",
+   "slide 9 of home slideshow",
+   "slide 10 of home slideshow"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_60342b07260340fe89747bcbfdb3c716~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-115.jpg"
+  ],
+  "places": [
+   "d:home@y2753 460x660 SECTION#comp-mmycjhfk1",
+   "m:home@y3656 280x402 SECTION#comp-mmycjhfk1"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_6a13e872f3604d6c980dd3ac5d429e11~mv2.jpg",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "soul yoga-113.jpg"
+  ],
+  "places": [
+   "d:home@y2033 1440x660 SECTION#comp-lipt6ff21",
+   "m:home@y3506 320x110 SECTION#comp-lipt6ff21"
+  ],
+  "dims": [
+   7008,
+   4672
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_80a2328012664e2a9b5b0ecd62b4e1ae~mv2.png",
+  "pages": [
+   "home",
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "recovering_logo-removebg-preview.png"
+  ],
+  "places": [
+   "d:home@y526 217x41 SECTION#comp-liporju3",
+   "d:recovering@y232 217x41 SECTION#comp-m7g8zi3d",
+   "m:home@y405 150x28 SECTION#comp-liporju3",
+   "m:recovering@y295 150x28 SECTION#comp-m7g8zi3d"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_a1b5863027c943d5a5e06daa7d1a444e~mv2.png",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "P20240710_083148750_7C861175-105A-4E27-BEFB-C8958FF4B42C.HEIC"
+  ],
+  "places": [
+   "d:home@y6054 460x660 SECTION#comp-lqp4eykf",
+   "m:home@y8348 280x402 SECTION#comp-lqp4eykf"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_f6796250879640089536372b7b4e7cd7~mv2.png",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "recovering_logo-removebg-preview.png"
+  ],
+  "places": [
+   "d:home@y6066 218x39 SECTION#comp-lqp4eykf",
+   "m:home@y8760 150x27 SECTION#comp-lqp4eykf"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "INSTAGRAM",
+  "pages": [
+   "home"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "9 Highlights of Your Journey in our \n200 Hours Soul Yoga Teacher Training Course\n\n- Daily Practice: Immerse yourself in ",
+   "@satiyoga_kr  이번 여름 발리에 못 간다면? 사띠요가에 오세요!\n\n🌴🌊 @soulyogabali @kalifadani\n\n올해도 발리 우붓 Soul Yoga의 Sandi선생님을 초청하여 도구요가+핸즈온 워크",
+   "A day in Soul Yoga \n200 Hours Teacher Training Program\n.\nA Life Changing Experience,\nAt @soulyogabali Ubud\n.\nUpcoming Pr",
+   "A new journey of self-discovery has officially begun at @soulyogabali ! Surrounded by the magic of the island, we gather",
+   "A wholesome experience in 200 Hours\nSoul Yoga Teacher Training Course Program\n.\nBe the one of Soul Yoga Family\nJoin our ",
+   "As the rice paddies wake up around you, choose your morning flow at Soul Yoga Bali. Ground into the roots of Hatha with ",
+   "Backbend bliss ✨ Using a chair for alignment makes the pose deeper, safer, and more powerful. Build strength, open the h",
+   "Chair yoga workshop with Sandi @kalifadani at NYC\n#chairyoga #chairyogachallenge #yoganyc #nyc #brooklyn #manhattan",
+   "Come immerse yourself in paradise for our ultimate 200-Hour Soul Yoga Teacher Training of 2026, hosted in the heart of B",
+   "DEEP HOUSE FLOW - DJ meet yoga\nA soulful vinyasa flow with deep house & soul MUSIC from a DJ as well as a SANDI @kalifad",
+   "Daily Yoga Class in Ubud\n.\nSOUL YOGA CENTER Sayan\nMon 7.30 Alignment Hatha\nTue 7.30 Hatha Flow\nWed 7.30 Alignment Hatha\n",
+   "Find your soul home at Soul Yoga Bali, a vibrant space where our intimate teacher training sparks a total life transform",
+   "Huge congratulations to Soul Yoga Teacher Training Batch 26 on completing three intense weeks of deep study, creative gr",
+   "In the heart of beautiful Ubud, enjoy yoga with proper alignment, hands-on adjustments, and a welcoming space for every ",
+   "Lets celebrate international yoga day \nwith @soulyogabali this saturday. \n\nSoul Yoga Open House\nSpecial Yoga Class with ",
+   "New schedule at @dharmakulabali \nWith @soulyogabali Teachers\n.\nMore info +62817279665\n.\n#ubudyoga #balidaily #baliyoga #",
+   "One day workshop with Sandi @kalifadani \nSee you in Japan\n.\nRegistration please contact @natsumi_thesunyoga \n.\nアジャストメントを",
+   "Props aren’t just a stepping stone to “advanced” poses. As teachers, it is easy to fall into the trap of using props onl",
+   "RECOVERING YOGA @recovering_official \nTeacher Training Course Level 1\nin Bali (2days, 15h)\nWith Korean Master, @sera_kor",
+   "Ready to transition from a passionate practitioner to a confident, certified leader? Join us in paradise for our final 2",
+   "Recovering Teacher Training\nWith @sera_korea in California\n24-25 August 2025\n.\nMore info & registration\n@angel.flow44 @a",
+   "Saturday 14 March 2026\nWith Sandi @kalifadani , Founder @soulyogabali \n\nAt The Ambengan Tenten.\nJl. Imam Bonjol Gg. Raha",
+   "Soul Connection. Healing. Transformation. 🌿\nA journey back to your true self begins here.\n✨ 200 Hours Soul Yoga Teacher ",
+   "Soul Yoga Bali meet up in HongKong with Sandi @kalifadani . An express dynamic Hatha for heart opening. \n.\n#hongkong #ha",
+   "Special class with SANDI @kalifadani  Soul Yoga Bali\n\n“True power isn’t in pushing harder, but in aligning deeper. When ",
+   "Think chair yoga is just an easy stretch? Think again. Hatha Yoga on a chair can be a surprisingly deep and tough workou",
+   "Transform your life from the inside out by joining our next yoga teacher training program. Surrounded by a warm, friendl",
+   "Way to @soulyogabali \n#baliyoga #ubudyoga #yogaubud #yogabali #baliyogateachertraining #baliyogaretreat #baliisland #bal",
+   "We open NEW SCHEDULE in @dharmakulabali \n9.30-11.00 Monday -Sunday\n11.30-13.00 Monday - Saturday\n。\nCheck our highlight f",
+   "Yoga teacher training is not just about physical poses or quiet meditation—it is a beautiful lesson in being human. It b",
+   "it’s time to evolve. 🌿 Ready to deepen your knowledge, refine your voice, and reconnect to your practice? Our Soul Yoga "
+  ],
+  "places": [
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "d:home@y7185 325x325 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t",
+   "m:home@y9908 309x309 SECTION#comp-m84k2u1t"
+  ],
+  "dims": null,
+  "bg": false
+ },
+ {
+  "id": "614271_0c53bec666f340c297cdf0fa01b6bd7a~mv2.png",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "P20250214_183149228_359E15D1-05B8-44D7-A93E-798DD114A855.HEIC"
+  ],
+  "places": [
+   "d:recovering@y1123 720x834 SECTION#comp-m7g9jn5n",
+   "m:recovering@y751 320x280 SECTION#comp-m7g9jn5n"
+  ],
+  "dims": [
+   4284,
+   5712
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_1cf809f767df43719fee292a5e4e80bc~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "1675078320227.jpg"
+  ],
+  "places": [
+   "d:recovering@y3344 718x468 SECTION#comp-m848k0eo",
+   "m:recovering@y3372 320x189 SECTION#comp-m848k0eo"
+  ],
+  "dims": [
+   1280,
+   961
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_2aa5f72a948649879a55693339a2cbba~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "1688728764740.jpg"
+  ],
+  "places": [
+   "d:recovering@y2167 1280x370 SECTION#comp-m84b1xb3",
+   "m:recovering@y2022 320x300 SECTION#comp-m84b1xb3"
+  ],
+  "dims": [
+   1280,
+   961
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_a6bb5a176ba64009b1a51dd4063788cf~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "1675078250769.jpg"
+  ],
+  "places": [
+   "d:recovering@y2874 718x468 SECTION#comp-m848j4wx",
+   "m:recovering@y2746 320x189 SECTION#comp-m848j4wx"
+  ],
+  "dims": [
+   1280,
+   961
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_ac643ff769304ca3a72fd48eddb92499~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "P20250214_175018607_6930A0F7-23A7-43AE-89D8-6E7AFBB08DFE.JPG"
+  ],
+  "places": [
+   "d:recovering@y213 1440x680 SECTION#comp-m7g8zi3d",
+   "m:recovering@y275 320x330 SECTION#comp-m7g8zi3d"
+  ],
+  "dims": [
+   4032,
+   3024
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_aeea00b1dde94ee4a3c9f76a97796a49~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "1688728764932.jpg"
+  ],
+  "places": [
+   "d:recovering@y3814 718x468 SECTION#comp-m848kegh",
+   "m:recovering@y3897 320x189 SECTION#comp-m848kegh"
+  ],
+  "dims": [
+   1280,
+   961
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_c48e83dcaeb24051a0791e97a52c1e18~mv2.png",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "P20241211_073752500_79D54CC9-2AC3-46EB-8AA8-DEC68DFDBA82.HEIC"
+  ],
+  "places": [
+   "d:recovering@y5051 1440x761 SECTION#comp-m84bmwf9",
+   "m:recovering@y5361 320x300 SECTION#comp-m84bmwf9"
+  ],
+  "dims": [
+   5712,
+   4284
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_dd8bb0cf21424371b39710f016a389b3~mv2.jpg",
+  "pages": [
+   "recovering"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "1675078250611.jpg"
+  ],
+  "places": [
+   "d:recovering@y4284 718x468 SECTION#comp-m848kk0a",
+   "m:recovering@y4472 320x189 SECTION#comp-m848kk0a"
+  ],
+  "dims": [
+   1280,
+   961
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_0c12a625aa4f460990ec1b4cf1f1cbef~mv2.jpeg",
+  "pages": [
+   "yogaclass"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "KakaoTalk_Photo_2023-06-10-16-05-45.jpeg"
+  ],
+  "places": [
+   "d:yogaclass@y213 1440x679 SECTION#comp-liporjs4",
+   "m:yogaclass@y275 320x330 SECTION#comp-liporjs4"
+  ],
+  "dims": [
+   4032,
+   3024
+  ],
+  "bg": true
+ },
+ {
+  "id": "614271_66d6ea0d050342919f85098cf9122cf6~mv2.png",
+  "pages": [
+   "yogaclass"
+  ],
+  "vp": [
+   "desktop",
+   "mobile",
+   "ssr"
+  ],
+  "alts": [
+   "KakaoTalk_Photo_2023-06-29-17-44-28 004.png"
+  ],
+  "places": [
+   "d:yogaclass@y3092 1280x439 SECTION#comp-le8cipgz1",
+   "m:yogaclass@y5336 320x240 SECTION#comp-le8cipgz1"
+  ],
+  "dims": [
+   2164,
+   1204
+  ],
+  "bg": true
+ }
+]

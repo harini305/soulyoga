@@ -1,0 +1,362 @@
+/* Main bar */
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--cream-soft);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.4s, background-color 0.4s;
+}
+
+.bar[data-scrolled="true"] {
+  border-bottom-color: var(--rule);
+  background: rgb(255 252 245 / 0.94);
+  backdrop-filter: saturate(1.2) blur(10px);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: var(--header-h);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  min-width: 0;
+}
+
+/* The only logo source is a JPG on white: multiply lets the white melt into the
+   cream bar without altering the artwork. */
+.logoWrap {
+  flex: none;
+  width: 58px;
+  height: 58px;
+  background: var(--white);
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  background: transparent !important;
+}
+
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.name {
+  font-family: var(--serif);
+  font-size: var(--t-brand);
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+}
+
+.tagline {
+  font-size: var(--t-brand-sub);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--grey-700);
+  margin-top: 0.3rem;
+}
+
+/* Desktop navigation */
+.nav {
+  display: none;
+}
+
+@media (min-width: 1080px) {
+  .nav {
+    display: block;
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.1rem, 2vw, 2.4rem);
+  list-style: none;
+}
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: var(--t-nav);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.25rem;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.45s var(--ease-out);
+}
+
+.navLink:hover::after,
+.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.active {
+  color: var(--teal);
+}
+
+.chev {
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.3s;
+}
+
+.ddItem {
+  position: relative;
+}
+
+.ddItem button[aria-expanded="true"] .chev {
+  transform: translateY(1px) rotate(225deg);
+}
+
+.dd {
+  position: absolute;
+  top: 100%;
+  left: -1.25rem;
+  min-width: 15.5rem;
+  padding: 0.6rem 0;
+  list-style: none;
+  background: var(--cream-soft);
+  border: 1px solid var(--rule);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.3s, transform 0.3s var(--ease-out), visibility 0.3s;
+}
+
+.ddItem:hover .dd,
+.dd[data-open="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.ddLink {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  font-size: var(--t-nav);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.ddLink:hover,
+.ddLink:focus-visible {
+  background: var(--cream);
+  color: var(--teal);
+}
+
+.ddLink[aria-current="page"] {
+  color: var(--teal);
+}
+
+/* Menu button (mobile/tablet) */
+.menuBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+  padding: 0 0.25rem;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 1080px) {
+  .bar .menuBtn {
+    display: none;
+  }
+}
+
+.menuBtnLabel {
+  font-size: var(--t-label);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.burger {
+  position: relative;
+  width: 26px;
+  height: 12px;
+}
+
+.burger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: currentColor;
+  transition: transform 0.35s var(--ease-out), top 0.35s var(--ease-out);
+}
+
+.burger span:first-child {
+  top: 0;
+}
+
+.burger span:last-child {
+  top: 10px;
+}
+
+.burger[data-open="true"] span:first-child {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.burger[data-open="true"] span:last-child {
+  top: 5px;
+  transform: rotate(-45deg);
+}
+
+/* Mobile overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--gutter) 2rem;
+  background: var(--cream);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.overlay[hidden] {
+  display: none;
+}
+
+.overlayTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-h);
+  border-bottom: 1px solid var(--rule);
+}
+
+.mNav {
+  flex: 1;
+  padding-top: 1.5rem;
+}
+
+.mNav ul {
+  list-style: none;
+}
+
+.mLink {
+  display: block;
+  padding: 0.55rem 0;
+  font-family: var(--serif);
+  font-size: var(--t-h3);
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.mLink[aria-current="page"],
+.mSubLink[aria-current="page"] {
+  color: var(--teal);
+}
+
+.mGroup {
+  padding: 0.9rem 0 0.6rem;
+  margin: 0.4rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.mGroupLabel {
+  display: block;
+  font-size: var(--t-label);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: var(--grey-700);
+  margin-bottom: 0.35rem;
+}
+
+.mSubLink {
+  display: block;
+  padding: 0.45rem 0;
+  font-family: var(--serif);
+  font-size: var(--t-h4);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.mContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  overflow-wrap: anywhere;
+}
+
+.mContact a {
+  font-size: var(--t-body);
+}
+
+@media (max-width: 479px) {
+  .logoWrap {
+    width: 48px;
+    height: 48px;
+  }
+
+  .name {
+    font-size: 1.3rem;
+    letter-spacing: 0.12em;
+  }
+
+  .tagline {
+    font-size: 0.66rem;
+  }
+}
+
+/* Desktop nav needs a little more room now that the type is larger */
+@media (min-width: 1080px) and (max-width: 1239px) {
+  .navList {
+    gap: 1.1rem;
+  }
+
+  .navLink {
+    letter-spacing: 0.1em;
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+}

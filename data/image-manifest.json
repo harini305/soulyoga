@@ -1,0 +1,1335 @@
+{
+  "generated": "scripts/optimize-images.mjs",
+  "excluded": [
+    {
+      "file": "614271_799ad34b6a5c42aaa65f848cc7db5ed0~mv2.png",
+      "reason": "'OM AH' logo of an unrelated business (legacy Wix business profile). Must not be used."
+    },
+    {
+      "file": "59ae78be3b0a4f0fa7b3c77d21838160.jpg",
+      "reason": "Wix stock placeholder from an untouched Bookings template service."
+    },
+    {
+      "file": "b2f7ef303bfa46ffa607186d757eb73f.jpg",
+      "reason": "Wix stock placeholder from an untouched Bookings template service."
+    },
+    {
+      "file": "2b074052bbd24b6385f01ef23168ab53.jpg",
+      "reason": "Wix stock placeholder from an untouched Bookings template service."
+    }
+  ],
+  "images": {
+    "logo": {
+      "width": 2244,
+      "height": 2244,
+      "alt": "Soul Yoga Bali logo",
+      "color": "rgb(248 248 248)",
+      "original": "614271_6e5c57e6a28e4045af8e93d78e6c8b2d~mv2.jpg",
+      "page": "all",
+      "section": "Header / footer logo (favicon master, 2244px JPG on white)",
+      "variants": [
+        {
+          "w": 240,
+          "h": 240,
+          "src": "/images/site/logo-240.webp",
+          "bytes": 3126
+        },
+        {
+          "w": 480,
+          "h": 480,
+          "src": "/images/site/logo-480.webp",
+          "bytes": 5840
+        },
+        {
+          "w": 840,
+          "h": 840,
+          "src": "/images/site/logo-840.webp",
+          "bytes": 11084
+        }
+      ]
+    },
+    "logo-small": {
+      "width": 100,
+      "height": 100,
+      "alt": "Soul Yoga Bali logo",
+      "color": "rgb(248 248 248)",
+      "original": "614271_8cce79108969465f92f0a20d25cb1ba3~mv2.png",
+      "page": "all",
+      "section": "Original 100px header logo (superseded by the master; kept for reference)",
+      "variants": [
+        {
+          "w": 96,
+          "h": 96,
+          "src": "/images/site/logo-small-96.png",
+          "bytes": 5148
+        }
+      ]
+    },
+    "badge-rys200": {
+      "width": 840,
+      "height": 716,
+      "alt": "Registered Yoga School RYS 200, Yoga Alliance",
+      "color": "transparent",
+      "original": "614271_f5b4bc907ee049b9a6406afde396e821~mv2.png",
+      "page": "home, 200h, 300h",
+      "section": "Yoga Alliance RYS 200 badge (hero overlay, 200h teaser)",
+      "variants": [
+        {
+          "w": 240,
+          "h": 205,
+          "src": "/images/site/badge-rys200-240.webp",
+          "bytes": 11406
+        },
+        {
+          "w": 480,
+          "h": 409,
+          "src": "/images/site/badge-rys200-480.webp",
+          "bytes": 25362
+        },
+        {
+          "w": 840,
+          "h": 716,
+          "src": "/images/site/badge-rys200-840.webp",
+          "bytes": 38018
+        }
+      ]
+    },
+    "logo-recovering": {
+      "width": 1152,
+      "height": 216,
+      "alt": "RecoveRing",
+      "color": "transparent",
+      "original": "614271_80a2328012664e2a9b5b0ecd62b4e1ae~mv2.png",
+      "page": "home, recovering",
+      "section": "RecoveRing wordmark (hero overlays, RecoveRing teaser)",
+      "variants": [
+        {
+          "w": 240,
+          "h": 45,
+          "src": "/images/site/logo-recovering-240.webp",
+          "bytes": 8550
+        },
+        {
+          "w": 480,
+          "h": 90,
+          "src": "/images/site/logo-recovering-480.webp",
+          "bytes": 19480
+        },
+        {
+          "w": 840,
+          "h": 158,
+          "src": "/images/site/logo-recovering-840.webp",
+          "bytes": 38186
+        }
+      ]
+    },
+    "logo-recovering-dup": {
+      "width": 1152,
+      "height": 216,
+      "alt": "RecoveRing",
+      "color": "transparent",
+      "original": "614271_f6796250879640089536372b7b4e7cd7~mv2.png",
+      "page": "home",
+      "section": "Duplicate upload of the RecoveRing wordmark (identical bytes; site uses logo-recovering)",
+      "variants": [
+        {
+          "w": 96,
+          "h": 18,
+          "src": "/images/site/logo-recovering-dup-96.png",
+          "bytes": 3079
+        }
+      ]
+    },
+    "icon-facebook": {
+      "width": 200,
+      "height": 200,
+      "alt": "Facebook",
+      "color": "transparent",
+      "original": "0fdef751204647a3bbd7eaa2827ed4f9.png",
+      "page": "all",
+      "section": "Facebook icon (header/footer)",
+      "variants": [
+        {
+          "w": 96,
+          "h": 96,
+          "src": "/images/site/icon-facebook-96.png",
+          "bytes": 925
+        }
+      ]
+    },
+    "icon-instagram": {
+      "width": 200,
+      "height": 200,
+      "alt": "Instagram",
+      "color": "transparent",
+      "original": "01c3aff52f2a4dffa526d7a9843d46ea.png",
+      "page": "all",
+      "section": "Instagram icon (header/footer)",
+      "variants": [
+        {
+          "w": 96,
+          "h": 96,
+          "src": "/images/site/icon-instagram-96.png",
+          "bytes": 1983
+        }
+      ]
+    },
+    "home-hero": {
+      "width": 6519,
+      "height": 4346,
+      "alt": "Teacher training group at the Soul Yoga Bali studio window making heart shapes with their hands",
+      "color": "rgb(8 8 8)",
+      "original": "614271_1d63e5949a20419193bebbefbcc6dfbb~mv2.jpg",
+      "page": "home",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/home-hero-640.webp",
+          "bytes": 58822
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/home-hero-1080.webp",
+          "bytes": 131752
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/home-hero-1600.webp",
+          "bytes": 236678
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/home-hero-2400.webp",
+          "bytes": 428012
+        }
+      ]
+    },
+    "home-strip": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "Two students in a revolved side-angle pose in warm morning light",
+      "color": "rgb(232 232 232)",
+      "original": "614271_6a13e872f3604d6c980dd3ac5d429e11~mv2.jpg",
+      "page": "home",
+      "section": "Full-width strip after class info",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/home-strip-640.webp",
+          "bytes": 29546
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/home-strip-1080.webp",
+          "bytes": 56166
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/home-strip-1600.webp",
+          "bytes": 96088
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/home-strip-2400.webp",
+          "bytes": 177524
+        }
+      ]
+    },
+    "home-200h": {
+      "width": 3333,
+      "height": 5926,
+      "alt": "Teacher giving a hands-on adjustment to a student in a seated pose",
+      "color": "rgb(216 216 200)",
+      "original": "614271_60342b07260340fe89747bcbfdb3c716~mv2.jpg",
+      "page": "home",
+      "section": "200h TTC teaser image",
+      "variants": [
+        {
+          "w": 480,
+          "h": 853,
+          "src": "/images/site/home-200h-480.webp",
+          "bytes": 31648
+        },
+        {
+          "w": 960,
+          "h": 1707,
+          "src": "/images/site/home-200h-960.webp",
+          "bytes": 87382
+        },
+        {
+          "w": 1400,
+          "h": 2489,
+          "src": "/images/site/home-200h-1400.webp",
+          "bytes": 169070
+        }
+      ]
+    },
+    "home-testimonials-bg": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "",
+      "color": "rgb(8 8 8)",
+      "original": "614271_579a41139ab744b5bfa72c071132260a~mv2.jpg",
+      "page": "home",
+      "section": "Testimonial slideshow background",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/home-testimonials-bg-640.webp",
+          "bytes": 20076
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/home-testimonials-bg-1080.webp",
+          "bytes": 39554
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/home-testimonials-bg-1600.webp",
+          "bytes": 69834
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/home-testimonials-bg-2400.webp",
+          "bytes": 147850
+        }
+      ]
+    },
+    "home-300h": {
+      "width": 3690,
+      "height": 4613,
+      "alt": "Close-up of a hands-on assist during practice",
+      "color": "rgb(200 200 184)",
+      "original": "614271_1ec29382234d4d938937d89c5ac6d8f0~mv2.jpg",
+      "page": "home",
+      "section": "300h TTC teaser image",
+      "variants": [
+        {
+          "w": 480,
+          "h": 600,
+          "src": "/images/site/home-300h-480.webp",
+          "bytes": 30000
+        },
+        {
+          "w": 960,
+          "h": 1200,
+          "src": "/images/site/home-300h-960.webp",
+          "bytes": 82470
+        },
+        {
+          "w": 1400,
+          "h": 1750,
+          "src": "/images/site/home-300h-1400.webp",
+          "bytes": 163002
+        }
+      ]
+    },
+    "home-recovering": {
+      "width": 3024,
+      "height": 4032,
+      "alt": "Sera assisting a student who is stretching with a RecoveRing",
+      "color": "rgb(24 24 24)",
+      "original": "614271_a1b5863027c943d5a5e06daa7d1a444e~mv2.png",
+      "page": "home",
+      "section": "RecoveRing teaser image",
+      "variants": [
+        {
+          "w": 480,
+          "h": 640,
+          "src": "/images/site/home-recovering-480.webp",
+          "bytes": 29884
+        },
+        {
+          "w": 960,
+          "h": 1280,
+          "src": "/images/site/home-recovering-960.webp",
+          "bytes": 78482
+        },
+        {
+          "w": 1400,
+          "h": 1867,
+          "src": "/images/site/home-recovering-1400.webp",
+          "bytes": 128200
+        }
+      ]
+    },
+    "merch-shirts": {
+      "width": 1936,
+      "height": 2298,
+      "alt": "Two people wearing the black Soul Yoga Bali cat T-shirt, seen from behind",
+      "color": "rgb(24 24 40)",
+      "original": "614271_28bf6a8748964232bacaa16fc39efecc~mv2.jpg",
+      "page": "home",
+      "section": "Cat T-shirt, left",
+      "variants": [
+        {
+          "w": 480,
+          "h": 570,
+          "src": "/images/site/merch-shirts-480.webp",
+          "bytes": 45844
+        },
+        {
+          "w": 960,
+          "h": 1140,
+          "src": "/images/site/merch-shirts-960.webp",
+          "bytes": 112804
+        },
+        {
+          "w": 1400,
+          "h": 1662,
+          "src": "/images/site/merch-shirts-1400.webp",
+          "bytes": 175988
+        }
+      ]
+    },
+    "merch-print": {
+      "width": 1440,
+      "height": 1800,
+      "alt": "Close-up of the Soul Yoga Bali cat print on the back of the T-shirt",
+      "color": "rgb(24 24 40)",
+      "original": "614271_34acec6dd7ff4f58b25063830aba38f5~mv2.jpg",
+      "page": "home",
+      "section": "Cat T-shirt, right",
+      "variants": [
+        {
+          "w": 480,
+          "h": 600,
+          "src": "/images/site/merch-print-480.webp",
+          "bytes": 31248
+        },
+        {
+          "w": 960,
+          "h": 1200,
+          "src": "/images/site/merch-print-960.webp",
+          "bytes": 80136
+        },
+        {
+          "w": 1400,
+          "h": 1750,
+          "src": "/images/site/merch-print-1400.webp",
+          "bytes": 138212
+        }
+      ]
+    },
+    "schedule-hero": {
+      "width": 4032,
+      "height": 3024,
+      "alt": "Class in warrior pose while a teacher adjusts a student's alignment",
+      "color": "rgb(200 184 168)",
+      "original": "614271_0c12a625aa4f460990ec1b4cf1f1cbef~mv2.jpeg",
+      "page": "yogaclass",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/schedule-hero-640.webp",
+          "bytes": 42054
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/schedule-hero-1080.webp",
+          "bytes": 99224
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/schedule-hero-1600.webp",
+          "bytes": 188570
+        },
+        {
+          "w": 2400,
+          "h": 1800,
+          "src": "/images/site/schedule-hero-2400.webp",
+          "bytes": 348922
+        }
+      ]
+    },
+    "schedule-class": {
+      "width": 2164,
+      "height": 1204,
+      "alt": "Full class practising side-plank variations on colourful mats",
+      "color": "transparent",
+      "original": "614271_66d6ea0d050342919f85098cf9122cf6~mv2.png",
+      "page": "yogaclass",
+      "section": "Image above testimonials",
+      "variants": [
+        {
+          "w": 640,
+          "h": 356,
+          "src": "/images/site/schedule-class-640.webp",
+          "bytes": 36364
+        },
+        {
+          "w": 1080,
+          "h": 601,
+          "src": "/images/site/schedule-class-1080.webp",
+          "bytes": 67408
+        },
+        {
+          "w": 1600,
+          "h": 890,
+          "src": "/images/site/schedule-class-1600.webp",
+          "bytes": 102930
+        }
+      ]
+    },
+    "ttc200-hero": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "Teacher training students holding a warrior pose in the studio",
+      "color": "rgb(248 248 248)",
+      "original": "614271_a6c3c09b094749c98ae517ce23c134a3~mv2.jpg",
+      "page": "200h",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/ttc200-hero-640.webp",
+          "bytes": 38382
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/ttc200-hero-1080.webp",
+          "bytes": 77906
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/ttc200-hero-1600.webp",
+          "bytes": 140690
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/ttc200-hero-2400.webp",
+          "bytes": 261174
+        }
+      ]
+    },
+    "ttc200-quote": {
+      "width": 3024,
+      "height": 4032,
+      "alt": "Group practising together in the studio",
+      "color": "rgb(168 168 152)",
+      "original": "614271_7af292f0133c429fbb52c9f8aa4186c3~mv2.jpeg",
+      "page": "200h",
+      "section": "Quote block image",
+      "variants": [
+        {
+          "w": 480,
+          "h": 640,
+          "src": "/images/site/ttc200-quote-480.webp",
+          "bytes": 37270
+        },
+        {
+          "w": 960,
+          "h": 1280,
+          "src": "/images/site/ttc200-quote-960.webp",
+          "bytes": 101214
+        },
+        {
+          "w": 1400,
+          "h": 1867,
+          "src": "/images/site/ttc200-quote-1400.webp",
+          "bytes": 176344
+        }
+      ]
+    },
+    "ttc200-strip-1": {
+      "width": 3000,
+      "height": 2250,
+      "alt": "Students practising on mats while the teacher stands and guides the class",
+      "color": "rgb(120 72 136)",
+      "original": "614271_ad95d5b31fd24b568c1692c21204cd40~mv2.jpg",
+      "page": "200h",
+      "section": "Strip after Schedule & Tuition",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/ttc200-strip-1-640.webp",
+          "bytes": 50388
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/ttc200-strip-1-1080.webp",
+          "bytes": 110922
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/ttc200-strip-1-1600.webp",
+          "bytes": 199102
+        },
+        {
+          "w": 2400,
+          "h": 1800,
+          "src": "/images/site/ttc200-strip-1-2400.webp",
+          "bytes": 361334
+        }
+      ]
+    },
+    "ttc200-strip-2": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "Teacher training students embracing in a group hug",
+      "color": "rgb(8 8 8)",
+      "original": "614271_3daa9adb0eff4310974900b4751ccbb7~mv2.jpg",
+      "page": "200h",
+      "section": "Strip after lime band",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/ttc200-strip-2-640.webp",
+          "bytes": 31252
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/ttc200-strip-2-1080.webp",
+          "bytes": 62968
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/ttc200-strip-2-1600.webp",
+          "bytes": 113294
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/ttc200-strip-2-2400.webp",
+          "bytes": 226446
+        }
+      ]
+    },
+    "ttc200-strip-3": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "Sandi playing guitar while students rest in savasana",
+      "color": "rgb(8 8 8)",
+      "original": "614271_7b850625912844ff857a49235085f4ea~mv2.jpg",
+      "page": "200h",
+      "section": "Strip after Curriculum",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/ttc200-strip-3-640.webp",
+          "bytes": 35574
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/ttc200-strip-3-1080.webp",
+          "bytes": 68720
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/ttc200-strip-3-1600.webp",
+          "bytes": 121560
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/ttc200-strip-3-2400.webp",
+          "bytes": 227862
+        }
+      ]
+    },
+    "ttc200-graduation": {
+      "width": 3000,
+      "height": 1774,
+      "alt": "Graduates dressed in white holding their teacher training certificates",
+      "color": "rgb(248 248 248)",
+      "original": "614271_ac4aa5c7c324427eb90deb4020b9f452~mv2.jpg",
+      "page": "200h",
+      "section": "Graduation photo after testimonials",
+      "variants": [
+        {
+          "w": 640,
+          "h": 378,
+          "src": "/images/site/ttc200-graduation-640.webp",
+          "bytes": 46520
+        },
+        {
+          "w": 1080,
+          "h": 639,
+          "src": "/images/site/ttc200-graduation-1080.webp",
+          "bytes": 109158
+        },
+        {
+          "w": 1600,
+          "h": 946,
+          "src": "/images/site/ttc200-graduation-1600.webp",
+          "bytes": 201980
+        }
+      ]
+    },
+    "ttc200-iyengar": {
+      "width": 6000,
+      "height": 4000,
+      "alt": "",
+      "color": "rgb(8 8 8)",
+      "original": "614271_61e0b99561d54e909caa96e2a928c183~mv2.jpg",
+      "page": "200h",
+      "section": "Closing quote band background",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/ttc200-iyengar-640.webp",
+          "bytes": 29538
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/ttc200-iyengar-1080.webp",
+          "bytes": 56146
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/ttc200-iyengar-1600.webp",
+          "bytes": 95952
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/ttc200-iyengar-2400.webp",
+          "bytes": 187864
+        }
+      ]
+    },
+    "ttc300-hero": {
+      "width": 7008,
+      "height": 4672,
+      "alt": "Class moving through downward dog and low lunges",
+      "color": "rgb(8 8 8)",
+      "original": "614271_c455675dd1694ac0a0ca4fc6af534f6f~mv2.jpg",
+      "page": "300h",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/ttc300-hero-640.webp",
+          "bytes": 37250
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/ttc300-hero-1080.webp",
+          "bytes": 74110
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/ttc300-hero-1600.webp",
+          "bytes": 128118
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/ttc300-hero-2400.webp",
+          "bytes": 241246
+        }
+      ]
+    },
+    "ttc300-quote": {
+      "width": 6567,
+      "height": 4378,
+      "alt": "Teacher observing students practising",
+      "color": "rgb(216 216 200)",
+      "original": "614271_d29a57c123874befa593c42dbb538eb6~mv2.jpg",
+      "page": "300h",
+      "section": "Quote block image",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/images/site/ttc300-quote-480.webp",
+          "bytes": 16780
+        },
+        {
+          "w": 960,
+          "h": 640,
+          "src": "/images/site/ttc300-quote-960.webp",
+          "bytes": 45272
+        },
+        {
+          "w": 1400,
+          "h": 933,
+          "src": "/images/site/ttc300-quote-1400.webp",
+          "bytes": 80734
+        }
+      ]
+    },
+    "ttc300-strip-1": {
+      "width": 2048,
+      "height": 1536,
+      "alt": "Students in white lying in a circle around a flower mandala",
+      "color": "rgb(200 216 232)",
+      "original": "614271_7d2eaf75a33449c4957a72315d4bd035~mv2.jpeg",
+      "page": "300h",
+      "section": "Strip after Schedule & Tuition",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/ttc300-strip-1-640.webp",
+          "bytes": 61634
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/ttc300-strip-1-1080.webp",
+          "bytes": 162640
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/ttc300-strip-1-1600.webp",
+          "bytes": 323726
+        }
+      ]
+    },
+    "ttc300-strip-2": {
+      "width": 1521,
+      "height": 1000,
+      "alt": "Group celebrating together in the studio garden",
+      "color": "rgb(232 232 232)",
+      "original": "614271_7db642c422bb4f888bde70a806636c95~mv2.jpeg",
+      "page": "300h",
+      "section": "Strip after Curriculum",
+      "variants": [
+        {
+          "w": 640,
+          "h": 421,
+          "src": "/images/site/ttc300-strip-2-640.webp",
+          "bytes": 66788
+        },
+        {
+          "w": 1080,
+          "h": 710,
+          "src": "/images/site/ttc300-strip-2-1080.webp",
+          "bytes": 164322
+        },
+        {
+          "w": 1521,
+          "h": 1000,
+          "src": "/images/site/ttc300-strip-2-1521.webp",
+          "bytes": 286390
+        }
+      ]
+    },
+    "ttc300-strip-3": {
+      "width": 2048,
+      "height": 1536,
+      "alt": "Students dressed in white dancing in the studio",
+      "color": "rgb(232 232 248)",
+      "original": "614271_fa98fb06547b43a9a20e272f7338f795~mv2.jpeg",
+      "page": "300h",
+      "section": "Strip before testimonials",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/ttc300-strip-3-640.webp",
+          "bytes": 46646
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/ttc300-strip-3-1080.webp",
+          "bytes": 102032
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/ttc300-strip-3-1600.webp",
+          "bytes": 172894
+        }
+      ]
+    },
+    "ttc300-graduation": {
+      "width": 2048,
+      "height": 1536,
+      "alt": "Graduates with certificates around a flower mandala",
+      "color": "rgb(168 152 136)",
+      "original": "614271_4355d70f02684f5e8f5150f4626fc390~mv2.jpeg",
+      "page": "300h",
+      "section": "Graduation photo after testimonials",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/ttc300-graduation-640.webp",
+          "bytes": 53426
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/ttc300-graduation-1080.webp",
+          "bytes": 118936
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/ttc300-graduation-1600.webp",
+          "bytes": 208846
+        }
+      ]
+    },
+    "studio-ricefield": {
+      "width": 4000,
+      "height": 3000,
+      "alt": "The Soul Yoga Bali studio house beside a green rice field",
+      "color": "rgb(232 232 232)",
+      "original": "614271_aab42992d39b4146b2188fba2a0e4023~mv2.jpg",
+      "page": "300h, aboutus",
+      "section": "300h closing band; About studio story",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/studio-ricefield-640.webp",
+          "bytes": 46022
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/studio-ricefield-1080.webp",
+          "bytes": 120094
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/studio-ricefield-1600.webp",
+          "bytes": 232864
+        },
+        {
+          "w": 2400,
+          "h": 1800,
+          "src": "/images/site/studio-ricefield-2400.webp",
+          "bytes": 438842
+        }
+      ]
+    },
+    "recovering-hero": {
+      "width": 4032,
+      "height": 3024,
+      "alt": "RecoveRing class practising on mats with the pink rings",
+      "color": "rgb(8 8 40)",
+      "original": "614271_ac643ff769304ca3a72fd48eddb92499~mv2.jpg",
+      "page": "recovering",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/recovering-hero-640.webp",
+          "bytes": 37496
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/recovering-hero-1080.webp",
+          "bytes": 84570
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/recovering-hero-1600.webp",
+          "bytes": 167118
+        },
+        {
+          "w": 2400,
+          "h": 1800,
+          "src": "/images/site/recovering-hero-2400.webp",
+          "bytes": 318854
+        }
+      ]
+    },
+    "recovering-details": {
+      "width": 4284,
+      "height": 5712,
+      "alt": "RecoveRing workshop group in the studio",
+      "color": "rgb(8 8 8)",
+      "original": "614271_0c53bec666f340c297cdf0fa01b6bd7a~mv2.png",
+      "page": "recovering",
+      "section": "Image beside tuition details",
+      "variants": [
+        {
+          "w": 480,
+          "h": 640,
+          "src": "/images/site/recovering-details-480.webp",
+          "bytes": 40548
+        },
+        {
+          "w": 960,
+          "h": 1280,
+          "src": "/images/site/recovering-details-960.webp",
+          "bytes": 102430
+        },
+        {
+          "w": 1400,
+          "h": 1867,
+          "src": "/images/site/recovering-details-1400.webp",
+          "bytes": 166830
+        }
+      ]
+    },
+    "recovering-band": {
+      "width": 1280,
+      "height": 961,
+      "alt": "Hands resting on a pink RecoveRing",
+      "color": "rgb(8 8 8)",
+      "original": "614271_2aa5f72a948649879a55693339a2cbba~mv2.jpg",
+      "page": "recovering",
+      "section": "Band under 'More Stretching, Less Stressing'",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/recovering-band-480.webp",
+          "bytes": 12904
+        },
+        {
+          "w": 960,
+          "h": 721,
+          "src": "/images/site/recovering-band-960.webp",
+          "bytes": 36618
+        },
+        {
+          "w": 1280,
+          "h": 961,
+          "src": "/images/site/recovering-band-1280.webp",
+          "bytes": 57388
+        }
+      ]
+    },
+    "benefit-fascia": {
+      "width": 1280,
+      "height": 961,
+      "alt": "Woman lying on the floor with a RecoveRing under her neck",
+      "color": "rgb(136 136 88)",
+      "original": "614271_a6bb5a176ba64009b1a51dd4063788cf~mv2.jpg",
+      "page": "recovering",
+      "section": "Benefit 1 MyOFascia Release",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/benefit-fascia-480.webp",
+          "bytes": 13680
+        },
+        {
+          "w": 960,
+          "h": 721,
+          "src": "/images/site/benefit-fascia-960.webp",
+          "bytes": 38372
+        },
+        {
+          "w": 1280,
+          "h": 961,
+          "src": "/images/site/benefit-fascia-1280.webp",
+          "bytes": 62078
+        }
+      ]
+    },
+    "benefit-pressure": {
+      "width": 1280,
+      "height": 961,
+      "alt": "Woman in a plank position using a RecoveRing",
+      "color": "rgb(184 168 136)",
+      "original": "614271_1cf809f767df43719fee292a5e4e80bc~mv2.jpg",
+      "page": "recovering",
+      "section": "Benefit 2 Pressure Massage",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/benefit-pressure-480.webp",
+          "bytes": 13948
+        },
+        {
+          "w": 960,
+          "h": 721,
+          "src": "/images/site/benefit-pressure-960.webp",
+          "bytes": 36316
+        },
+        {
+          "w": 1280,
+          "h": 961,
+          "src": "/images/site/benefit-pressure-1280.webp",
+          "bytes": 57300
+        }
+      ]
+    },
+    "benefit-stretching": {
+      "width": 1280,
+      "height": 961,
+      "alt": "Woman seen from behind stretching with a RecoveRing behind her head",
+      "color": "rgb(200 184 168)",
+      "original": "614271_aeea00b1dde94ee4a3c9f76a97796a49~mv2.jpg",
+      "page": "recovering",
+      "section": "Benefit 3 Deep Stretching",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/benefit-stretching-480.webp",
+          "bytes": 11726
+        },
+        {
+          "w": 960,
+          "h": 721,
+          "src": "/images/site/benefit-stretching-960.webp",
+          "bytes": 27472
+        },
+        {
+          "w": 1280,
+          "h": 961,
+          "src": "/images/site/benefit-stretching-1280.webp",
+          "bytes": 41450
+        }
+      ]
+    },
+    "benefit-core": {
+      "width": 1280,
+      "height": 961,
+      "alt": "Woman balancing in boat pose holding a RecoveRing",
+      "color": "rgb(184 168 136)",
+      "original": "614271_dd8bb0cf21424371b39710f016a389b3~mv2.jpg",
+      "page": "recovering",
+      "section": "Benefit 4 Core Practice",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/benefit-core-480.webp",
+          "bytes": 13486
+        },
+        {
+          "w": 960,
+          "h": 721,
+          "src": "/images/site/benefit-core-960.webp",
+          "bytes": 33298
+        },
+        {
+          "w": 1280,
+          "h": 961,
+          "src": "/images/site/benefit-core-1280.webp",
+          "bytes": 51644
+        }
+      ]
+    },
+    "recovering-closing": {
+      "width": 5712,
+      "height": 4284,
+      "alt": "Class in a wide-legged stance using props",
+      "color": "rgb(8 8 8)",
+      "original": "614271_c48e83dcaeb24051a0791e97a52c1e18~mv2.png",
+      "page": "recovering",
+      "section": "Closing image",
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "src": "/images/site/recovering-closing-640.webp",
+          "bytes": 33612
+        },
+        {
+          "w": 1080,
+          "h": 810,
+          "src": "/images/site/recovering-closing-1080.webp",
+          "bytes": 64946
+        },
+        {
+          "w": 1600,
+          "h": 1200,
+          "src": "/images/site/recovering-closing-1600.webp",
+          "bytes": 107846
+        },
+        {
+          "w": 2400,
+          "h": 1800,
+          "src": "/images/site/recovering-closing-2400.webp",
+          "bytes": 178094
+        }
+      ]
+    },
+    "about-hero": {
+      "width": 6295,
+      "height": 4197,
+      "alt": "Students gathered at the studio window beside the SOUL sign",
+      "color": "rgb(8 8 8)",
+      "original": "614271_4b0455749d464b10b26ee51ceb5a39ba~mv2.jpg",
+      "page": "aboutus",
+      "section": "Hero",
+      "variants": [
+        {
+          "w": 640,
+          "h": 427,
+          "src": "/images/site/about-hero-640.webp",
+          "bytes": 43410
+        },
+        {
+          "w": 1080,
+          "h": 720,
+          "src": "/images/site/about-hero-1080.webp",
+          "bytes": 96918
+        },
+        {
+          "w": 1600,
+          "h": 1067,
+          "src": "/images/site/about-hero-1600.webp",
+          "bytes": 176796
+        },
+        {
+          "w": 2400,
+          "h": 1600,
+          "src": "/images/site/about-hero-2400.webp",
+          "bytes": 325788
+        }
+      ]
+    },
+    "portrait-sandi": {
+      "width": 4672,
+      "height": 7008,
+      "alt": "Portrait of Sandi Kalifadani with the rice fields behind him",
+      "color": "rgb(120 152 184)",
+      "original": "614271_c3fcf6c9ab664ed28aaade5a6b2e418a~mv2.jpg",
+      "page": "aboutus",
+      "section": "Sandi Kalifadani bio",
+      "variants": [
+        {
+          "w": 480,
+          "h": 720,
+          "src": "/images/site/portrait-sandi-480.webp",
+          "bytes": 28524
+        },
+        {
+          "w": 960,
+          "h": 1440,
+          "src": "/images/site/portrait-sandi-960.webp",
+          "bytes": 74986
+        },
+        {
+          "w": 1400,
+          "h": 2100,
+          "src": "/images/site/portrait-sandi-1400.webp",
+          "bytes": 129478
+        }
+      ]
+    },
+    "portrait-sera": {
+      "width": 4672,
+      "height": 7008,
+      "alt": "Portrait of Sera in the garden",
+      "color": "rgb(152 200 104)",
+      "original": "614271_f3cf4e531f31427bb5dd4d3cd3c1ea62~mv2.jpg",
+      "page": "aboutus",
+      "section": "Sera bio",
+      "variants": [
+        {
+          "w": 480,
+          "h": 720,
+          "src": "/images/site/portrait-sera-480.webp",
+          "bytes": 42756
+        },
+        {
+          "w": 960,
+          "h": 1440,
+          "src": "/images/site/portrait-sera-960.webp",
+          "bytes": 105548
+        },
+        {
+          "w": 1400,
+          "h": 2100,
+          "src": "/images/site/portrait-sera-1400.webp",
+          "bytes": 183434
+        }
+      ]
+    },
+    "contact-sunset": {
+      "width": 1024,
+      "height": 768,
+      "alt": "Rice fields at sunset with mountains on the horizon",
+      "color": "rgb(88 136 184)",
+      "original": "614271_c6b8ee8108d346499e51d6173746cf68~mv2.jpeg",
+      "page": "contact",
+      "section": "Rice field at sunset",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/contact-sunset-480.webp",
+          "bytes": 31036
+        },
+        {
+          "w": 960,
+          "h": 720,
+          "src": "/images/site/contact-sunset-960.webp",
+          "bytes": 97860
+        },
+        {
+          "w": 1024,
+          "h": 768,
+          "src": "/images/site/contact-sunset-1024.webp",
+          "bytes": 108178
+        }
+      ]
+    },
+    "alignment-vinyasa": {
+      "width": 1280,
+      "height": 960,
+      "alt": "Yogi balancing in crow pose on a terrace railing",
+      "color": "rgb(40 40 40)",
+      "original": "614271_0385cf1a2c29427eb4ca6e507be2c4df~mv2.jpeg",
+      "page": "book-online, service-page/alignment-vinyasa",
+      "section": "Alignment Vinyasa service image (has photographer watermark)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 360,
+          "src": "/images/site/alignment-vinyasa-480.webp",
+          "bytes": 48454
+        },
+        {
+          "w": 960,
+          "h": 720,
+          "src": "/images/site/alignment-vinyasa-960.webp",
+          "bytes": 122074
+        },
+        {
+          "w": 1280,
+          "h": 960,
+          "src": "/images/site/alignment-vinyasa-1280.webp",
+          "bytes": 172218
+        }
+      ]
+    }
+  }
+}

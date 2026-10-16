@@ -1,0 +1,27 @@
+.list {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.link {
+  display: inline-grid;
+  place-items: center;
+  min-width: 36px;
+  min-height: 36px;
+  transition: opacity 0.3s;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.icon {
+  mix-blend-mode: multiply;
+  background: transparent !important;
+}
+
+.inverted .icon {
+  filter: invert(1);
+  mix-blend-mode: screen;
+}

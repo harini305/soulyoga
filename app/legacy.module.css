@@ -1,0 +1,82 @@
+.page {
+  padding-block: clamp(2.5rem, 6vw, 6rem) var(--space-section);
+}
+
+.eyebrow {
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: var(--t-h1);
+  line-height: 1.02;
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  max-width: 40rem;
+  font-family: var(--serif);
+  font-size: var(--fs-md);
+}
+
+.lead a {
+  color: var(--teal);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.card {
+  display: grid;
+  gap: 2rem;
+  margin-top: var(--space-block);
+  padding-top: var(--space-block);
+  border-top: 1px solid var(--ink);
+}
+
+@media (min-width: 860px) {
+  .card {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    gap: clamp(2.5rem, 6vw, 6rem);
+    align-items: start;
+  }
+}
+
+.media {
+  aspect-ratio: 4 / 3;
+}
+
+.cardBody {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.cardTitle {
+  font-size: var(--t-h2);
+}
+
+.cardTitle a {
+  text-decoration: none;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.08em;
+  color: var(--grey-700);
+}
+
+.unavailable {
+  padding: 1rem 1.25rem;
+  background: var(--cream);
+  border-left: 3px solid var(--grey-700);
+  font-family: var(--serif);
+  font-size: var(--t-h4);
+}

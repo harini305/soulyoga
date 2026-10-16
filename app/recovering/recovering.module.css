@@ -1,0 +1,270 @@
+/* ---------------------------------------------------------- Hero */
+.hero {
+  position: relative;
+  padding-bottom: var(--space-block);
+}
+
+.heroMedia {
+  height: clamp(380px, 70vh, 760px);
+}
+
+/* Full-width panel overlapping the photo: title left, published date right */
+.heroCard {
+  position: relative;
+  display: grid;
+  gap: 1.5rem 3rem;
+  margin: clamp(-7rem, -9vw, -2.5rem) auto 0;
+  padding-top: clamp(1.75rem, 3.5vw, 3rem);
+  background: var(--cream-soft);
+  max-width: var(--max);
+  width: calc(100% - var(--gutter) * 2);
+  padding-inline: clamp(1.25rem, 3.5vw, 3rem);
+}
+
+@media (min-width: 960px) {
+  .heroCard {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    align-items: end;
+  }
+}
+
+.heroTitleWrap {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.heroLogo {
+  width: clamp(170px, 20vw, 260px);
+  height: auto;
+  background: transparent !important;
+}
+
+.title {
+  font-size: var(--t-h1);
+  line-height: 1.02;
+  color: var(--teal);
+}
+
+.note {
+  margin-top: 0.75rem;
+  font-size: var(--fs-sm);
+  color: var(--grey-700);
+}
+
+/* ---------------------------------------------------------- Details */
+.details {
+  padding-block: var(--space-section);
+}
+
+.detailsGrid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 960px) {
+  .detailsGrid {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+    gap: clamp(2rem, 4vw, 4rem);
+    align-items: stretch;
+  }
+}
+
+.detailsText {
+  display: grid;
+  gap: 2.25rem;
+  padding: clamp(1.75rem, 4vw, 3.5rem);
+  background: var(--cream);
+  color: var(--grey-800);
+}
+
+.detailsHeading {
+  font-size: var(--t-h2);
+  color: var(--ink);
+  line-height: 1.1;
+}
+
+.block {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.blockLabel {
+  font-size: var(--t-h3);
+  letter-spacing: 0.04em;
+  color: var(--teal);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.price {
+  font-family: var(--serif);
+  font-size: var(--t-h3);
+  color: var(--ink);
+}
+
+.dash {
+  list-style: none;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.dash li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.dash li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.8em;
+  width: 0.55rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.enquire {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.detailsMedia {
+  aspect-ratio: 3 / 4;
+}
+
+@media (min-width: 960px) {
+  .detailsMedia {
+    aspect-ratio: auto;
+    height: 100%;
+  }
+}
+
+/* ---------------------------------------------------------- Statement */
+.statement {
+  padding-block: var(--space-block);
+  overflow: hidden;
+}
+
+.statementText {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--t-statement);
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.statementLine {
+  display: block;
+  white-space: nowrap;
+}
+
+.statementLine2 {
+  color: var(--teal);
+}
+
+@media (max-width: 520px) {
+  .statementLine {
+    white-space: normal;
+  }
+}
+
+.bandWrap {
+  max-width: calc(1100px + var(--gutter) * 2);
+}
+
+.band {
+  aspect-ratio: 1280 / 961;
+}
+
+@media (min-width: 700px) {
+  .band {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* ---------------------------------------------------------- Benefits */
+.benefits {
+  padding-top: var(--space-block);
+}
+
+.benefitsHead {
+  display: grid;
+  gap: 1.75rem;
+  margin-bottom: var(--space-block);
+}
+
+@media (min-width: 960px) {
+  .benefitsHead {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+    gap: clamp(3rem, 6vw, 7rem);
+    align-items: end;
+  }
+}
+
+.benefitsTitle {
+  font-size: var(--fs-2xl);
+  line-height: 1.04;
+}
+
+.benefitsIntro {
+  font-size: var(--fs-md);
+}
+
+.checker {
+  list-style: none;
+}
+
+.cell {
+  display: grid;
+}
+
+@media (min-width: 900px) {
+  .cell {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cellReverse .cellMedia {
+    order: 2;
+  }
+}
+
+.cellMedia {
+  aspect-ratio: 1280 / 961;
+}
+
+.cellText {
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+  padding: clamp(2.5rem, 6vw, 6rem) var(--gutter);
+  background: var(--cream);
+}
+
+@media (min-width: 900px) {
+  .cellText {
+    padding-inline: clamp(2.5rem, 6vw, 6rem);
+  }
+}
+
+.cellReverse .cellText {
+  background: var(--cream-soft);
+}
+
+.cellTitle {
+  font-size: var(--fs-xl);
+}
+
+/* ---------------------------------------------------------- Closing */
+.closing {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 700px) {
+  .closing {
+    aspect-ratio: 1440 / 761;
+    max-height: 92vh;
+    width: 100%;
+  }
+}

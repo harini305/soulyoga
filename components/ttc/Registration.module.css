@@ -1,0 +1,57 @@
+.section {
+  padding-block: var(--space-section);
+  background: var(--cream);
+  scroll-margin-top: var(--header-h);
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(3rem, 7vw, 8rem);
+  }
+}
+
+.info {
+  display: grid;
+  gap: 1.25rem;
+  align-content: start;
+}
+
+.title {
+  font-size: var(--fs-2xl);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-family: var(--serif);
+  font-size: var(--t-h4);
+  letter-spacing: 0.15em;
+  color: var(--teal);
+}
+
+.text {
+  max-width: 30rem;
+  font-size: var(--fs-md);
+}
+
+.contact {
+  list-style: none;
+  display: grid;
+  gap: 0.4rem;
+  overflow-wrap: anywhere;
+}
+
+.contact a {
+  color: var(--teal);
+}
+
+.formWrap {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: var(--cream-soft);
+}

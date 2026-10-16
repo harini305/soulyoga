@@ -1,0 +1,290 @@
+/* Soul Yoga Bali — design tokens and base styles
+   Palette from docs/source-audit/04-brand-typography-colors.md */
+
+:root {
+  /* Brand */
+  --ink: #181818;
+  --teal: #285461;
+  --sand: #ece2d0; /* quote bands and soft panels (replaces the original lime) */
+  --sand-soft: #f4ede0; /* section band, e.g. the home schedule section */
+  --accent: #e3d3b6; /* warm sand accent on teal, ink and photographs */
+  --cream: #fcf8ed;
+  --cream-soft: #fffcf5;
+  --timetable-header: var(--teal); /* the source widget used ≈#558F1E; replaced by teal */
+
+  /* Supporting neutrals (all present on the original site) */
+  --grey-800: #383838;
+  --grey-700: #525252;
+  --white: #ffffff;
+
+  /* Derived (opacity of brand colours, no new hues) */
+  --rule: rgb(24 24 24 / 0.16);
+  --rule-strong: rgb(24 24 24 / 0.5);
+  --rule-light: rgb(252 248 237 / 0.28);
+  --teal-wash: rgb(40 84 97 / 0.07);
+  --scrim: rgb(24 24 24 / 0.55);
+
+  /* Type */
+  --serif: var(--font-forum), "Forum", Georgia, "Times New Roman", serif;
+  --sans: var(--font-jost), "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* CJK / Cyrillic fallbacks for testimonials (Forum/Jost have no CJK glyphs) */
+  --cjk: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", "Apple SD Gothic Neo",
+    "Malgun Gothic", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK", sans-serif;
+
+  /* ---- Type scale: the ONLY font sizes used on the site -------------------
+     Each level is one responsive formula (mobile -> desktop).
+     Headings: Forum. Text and interface: Jost.                              */
+  --t-h1: clamp(2.375rem, 1.6rem + 2.2vw, 3.5rem); /* 38 -> 56px  page title          */
+  --t-h2: clamp(1.875rem, 1.45rem + 1.3vw, 2.625rem); /* 30 -> 42px  section heading     */
+  --t-h3: clamp(1.5rem, 1.3rem + 0.6vw, 1.875rem); /* 24 -> 30px  subsection heading  */
+  --t-h4: clamp(1.125rem, 1.05rem + 0.3vw, 1.375rem); /* 18 -> 22px  small heading, data  */
+  --t-lead: clamp(1.125rem, 1.07rem + 0.2vw, 1.25rem); /* 18 -> 20px  intro paragraphs    */
+  --t-body: clamp(1rem, 0.97rem + 0.1vw, 1.0625rem); /* 16 -> 17px  body text           */
+  --t-small: 0.875rem; /* 14px  captions, notes, metadata                          */
+  --t-label: 0.8125rem; /* 13px  uppercase labels, tags, table headers (tracked)    */
+  --t-nav: 0.9375rem; /* 15px  navigation                                          */
+  --t-btn: 0.8125rem; /* 13px  buttons (uppercase, tracked)                        */
+
+  /* Documented exceptions (one formula each):
+     display   - the home hero title and the 200h/300h hero numerals only
+     quote     - lime/sand quote bands and the TTC quote blocks
+     statement - the two closing editorial statements (Iyengar quote,
+                 "More Stretching, Less Stressing")                             */
+  --t-display: clamp(3.4rem, 0.6rem + 6.6vw, 6.5rem);
+  --t-quote: clamp(1.375rem, 1.1rem + 0.9vw, 2rem);
+  --t-statement: clamp(2.25rem, 1.2rem + 3.6vw, 4.75rem);
+
+  /* Brand lockup (logo wordmark), not part of the text scale */
+  --t-brand: 1.6rem;
+  --t-brand-sub: 0.74rem;
+
+  /* Legacy aliases kept so no component falls outside the scale */
+  --fs-xs: var(--t-label);
+  --fs-sm: var(--t-small);
+  --fs-base: var(--t-body);
+  --fs-md: var(--t-lead);
+  --fs-lg: var(--t-h3);
+  --fs-xl: var(--t-h3);
+  --fs-2xl: var(--t-h2);
+  --fs-3xl: var(--t-h2);
+
+  /* Layout */
+  --gutter: clamp(16px, 4vw, 56px);
+  --max: 1360px;
+  --max-text: 40rem;
+  --space-section: clamp(2.25rem, 1.75rem + 2vw, 4rem);
+  --space-block: clamp(1.5rem, 1rem + 1.25vw, 2.25rem);
+  --header-h: 92px;
+
+  --ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@media (max-width: 899px) {
+  :root {
+    --header-h: 72px;
+  }
+}
+
+@media (max-width: 959px) {
+  :root {
+    --t-display: clamp(3.2rem, 1rem + 13vw, 6rem);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+body {
+  margin: 0;
+  background: var(--cream-soft);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: var(--fs-base);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.12;
+  margin: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--t-h1);
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: var(--t-h2);
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: var(--t-h3);
+  line-height: 1.15;
+}
+
+h4 {
+  font-size: var(--t-h4);
+  line-height: 1.25;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--sand);
+  color: var(--ink);
+}
+
+[lang="ko"],
+[lang="ja"],
+[lang^="zh"] {
+  font-family: var(--sans), var(--cjk);
+  word-break: keep-all;
+  line-break: strict;
+}
+
+[lang="ja"],
+[lang^="zh"] {
+  word-break: normal;
+}
+
+/* ---- Utilities --------------------------------------------------------- */
+
+.container {
+  width: 100%;
+  max-width: calc(var(--max) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: -200px;
+  left: 8px;
+  z-index: 200;
+  padding: 0.7rem 1rem;
+  background: var(--ink);
+  color: var(--cream);
+  transform: translateY(-160%);
+  transition: transform 0.2s;
+}
+
+.skip-link:focus {
+  top: 8px;
+  transform: none;
+}
+
+/* Small uppercase label used for section indexes and metadata */
+.eyebrow {
+  font-family: var(--sans);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+
+/* Word-mask split headings (see components/SplitHeading.js) */
+.split-line {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+.split-word {
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Pre-hide hero items only while motion is about to run (class set in <head>).
+   A timeout in the same script removes it if GSAP never starts. */
+html.motion-pending [data-hero-item] {
+  opacity: 0;
+}
+
+html.motion-pending [data-hero-item].split-host {
+  opacity: 1;
+}
+
+html.motion-pending [data-hero-item] .split-word {
+  transform: translateY(110%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

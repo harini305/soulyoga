@@ -1,0 +1,51 @@
+.head {
+  margin-bottom: clamp(1.5rem, 2.75vw, 2.5rem);
+}
+
+.index {
+  margin-bottom: clamp(1.1rem, 2vw, 1.75rem);
+}
+
+.row {
+  display: grid;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+@media (min-width: 960px) {
+  .split .row {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2rem, 6vw, 7rem);
+  }
+}
+
+.title {
+  font-size: var(--fs-2xl);
+  line-height: 1.04;
+}
+
+.teal .title {
+  color: var(--teal);
+}
+
+.intro {
+  max-width: 34rem;
+  font-size: var(--fs-md);
+  line-height: 1.6;
+}
+
+.intro p + p {
+  margin-top: 0.75rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center .row {
+  justify-items: center;
+}
+
+.light {
+  color: var(--cream);
+}

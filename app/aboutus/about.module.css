@@ -1,0 +1,162 @@
+.heroMedia {
+  height: clamp(340px, 70vh, 780px);
+}
+
+/* Why Ubud — dark band, as on the original page */
+.ubud {
+  background: var(--ink);
+  color: var(--cream);
+  padding-block: var(--space-section);
+}
+
+.ubudGrid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 960px) {
+  .ubudGrid {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+    gap: clamp(3rem, 7vw, 8rem);
+  }
+}
+
+.ubudTitle {
+  font-size: var(--fs-2xl);
+  line-height: 1.02;
+  color: var(--accent);
+}
+
+.ubudText {
+  font-family: var(--serif);
+  font-size: var(--t-lead);
+  line-height: 1.55;
+}
+
+/* Studio story */
+.story {
+  padding-block: var(--space-section);
+}
+
+.storyGrid {
+  display: grid;
+  gap: 3rem;
+}
+
+@media (min-width: 960px) {
+  .storyGrid {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: stretch;
+  }
+}
+
+.storyTitle {
+  font-size: var(--fs-3xl);
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.prose {
+  display: grid;
+  gap: 1.1rem;
+  font-size: var(--fs-md);
+  line-height: 1.7;
+  max-width: 44rem;
+}
+
+.prose a {
+  color: var(--teal);
+}
+
+.lead::first-letter {
+  font-family: var(--serif);
+}
+
+.storyMedia {
+  aspect-ratio: 4 / 5;
+}
+
+@media (min-width: 960px) {
+  .storyMedia {
+    aspect-ratio: auto;
+    height: 100%;
+    min-height: 30rem;
+  }
+}
+
+/* Founders */
+.founders {
+  scroll-margin-top: var(--header-h);
+}
+
+.founder {
+  display: grid;
+  background: var(--cream);
+}
+
+.founderReverse {
+  background: var(--cream-soft);
+}
+
+@media (min-width: 960px) {
+  .founder {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  }
+
+  .founderReverse {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  }
+
+  .founderReverse .portraitWrap {
+    order: 2;
+  }
+}
+
+.portrait {
+  aspect-ratio: 4 / 5;
+  height: 100%;
+}
+
+@media (min-width: 960px) {
+  .portrait {
+    aspect-ratio: auto;
+    min-height: 100%;
+  }
+  .portraitWrap {
+    min-height: 38rem;
+    position: relative;
+  }
+  .portraitWrap > figure {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.bio {
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  padding: clamp(2.5rem, 5vw, 5rem) var(--gutter);
+}
+
+@media (min-width: 960px) {
+  .bio {
+    padding-inline: clamp(3rem, 6vw, 7rem);
+  }
+}
+
+.bioIndex {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.bioName {
+  font-size: var(--fs-2xl);
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}

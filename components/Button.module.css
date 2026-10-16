@@ -1,0 +1,99 @@
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  min-height: 48px;
+  padding: 0.75rem 1.4rem;
+  border: 1px solid currentColor;
+  font-family: var(--sans);
+  font-size: var(--t-btn);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.2;
+  isolation: isolate;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.45s var(--ease-out), border-color 0.45s var(--ease-out);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.45s var(--ease-out);
+}
+
+.btn:hover::before,
+.btn:focus-visible::before {
+  transform: scaleY(1);
+}
+
+.arrow {
+  display: inline-block;
+  font-size: var(--t-body);
+  letter-spacing: 0;
+  transition: transform 0.45s var(--ease-out);
+}
+
+.btn:hover .arrow,
+.btn:focus-visible .arrow {
+  transform: translateX(4px);
+}
+
+.outline {
+  color: var(--ink);
+}
+
+.outline::before {
+  background: var(--ink);
+}
+
+.outline:hover,
+.outline:focus-visible {
+  color: var(--cream);
+}
+
+.solid {
+  color: var(--cream);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.solid::before {
+  background: var(--teal);
+}
+
+.solid:hover,
+.solid:focus-visible {
+  border-color: var(--teal);
+}
+
+.light {
+  color: var(--cream);
+}
+
+.light::before {
+  background: var(--cream);
+}
+
+.light:hover,
+.light:focus-visible {
+  color: var(--ink);
+}
+
+.accent {
+  color: var(--ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.accent::before {
+  background: var(--cream);
+}

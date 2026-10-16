@@ -1,0 +1,45 @@
+.band {
+  background: var(--sand);
+  color: var(--ink);
+  padding-block: clamp(2.25rem, 1.5rem + 2vw, 3.5rem);
+  overflow: hidden;
+}
+
+.figure {
+  position: relative;
+  margin: 0;
+}
+
+.quote {
+  position: relative;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: var(--t-quote);
+  line-height: 1.32;
+}
+
+.quote p + p {
+  margin-top: 0.6em;
+}
+
+.cite {
+  margin-top: 1.5rem;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.center .figure {
+  max-width: 54rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.center .offset .figure {
+  max-width: 62rem;
+  margin-left: clamp(0rem, 9vw, 10rem);
+  padding-left: clamp(1.25rem, 4vw, 3.5rem);
+  border-left: 2px solid var(--teal);
+}
+

@@ -1,0 +1,30 @@
+# About Us — verbatim content
+
+- Source URL: https://www.soulyogabali.com/aboutus
+- Captured: 2026-10-15 (server-rendered HTML, desktop UA; mobile text verified identical apart from line breaks)
+- `<title>`: ABOUT US | SOUL YOGA BALI
+- Meta description: (none)
+- Canonical: https://www.soulyogabali.com/aboutus
+
+Text is copied exactly as published, **including original typos and inconsistencies** (see `06-issues-missing-unresolved.md`).
+Each line is one text node, prefixed with the HTML element it was found in. **Consecutive lines can be fragments of one sentence** where the original applies inline styling mid-word or mid-sentence. For example `Bring your ow` + `n towel` and `R` + `ecove` + `ring yoga Is a prop…` render on screen as "Bring your own towel" and "Recovering yoga Is a prop…". Join such fragments when reusing the text; they are not typos. Shared header/footer text is omitted (see `01-page-inventory.md` → Shared components).
+
+```text
+[h2] Why choose Ubud?
+[p] Situated in the heart of Bali, Ubud derives its name from the Balinese word Ubad, meaning medicine—a tribute to the region's ancient legacy as a source of medicinal herbs and "holy inspiration." Beyond its breathtaking landscapes, Ubud has served as the island’s cultural and artistic epicenter since the 1930s, offering a profound atmosphere for meditation and self-discovery. What truly distinguishes this sanctuary is the local Balinese community, whose daily lives are a living embodiment of yoga. Through their sacred traditions, intricate architecture, and spiritual devotion, the people of Ubud practice yoga naturally from birth, making this the world’s most authentic destination for those seeking to study spiritualism and the yogic arts..
+[h1] Soul Yoga Bali
+[p] stands apart from Bali’s larger commercial studios by offering a deeply personal, home-based experience where students are welcomed into the family. Located in a scenic shala in the rice fields of Sayan, the studio is run by the
+[p] founding couple
+[p] , Sandi and Sera, who live on-site with their four cats. Sandi, a local Indonesian teacher with over 20 years of experience, specializes in Alignment Hatha—a signature style that blends Iyengar-based precision with creative sequencing and the strategic use of props like walls and chairs and Alignment Flow, a slow deep power ashtanga-vinyasa inspired with alignment approach. Sera, a Korean teacher and master with over a decade of expertise, brings a background in dance and academic study to her Inside Flow and Recovering Yoga classes, which focus on rhythmic movement and therapeutic rehabilitation.
+[p] The daily practice at Soul Yoga Bali is intentionally instructional and often feels like a mini-workshop, making it a favorite for both beginners and established yoga teachers. Instructions are exceptionally clear and patient, with teachers providing meticulous hands-on adjustments and personalized attention to ensure every student understands the finer details of alignment. This emphasis on education over simple exercise is why their Yoga Alliance-accredited
+[p] Teacher Trainings
+[p] are kept small, typically limited to 16 students, to maintain an intimate atmosphere of self-transformation and healing. Whether attending a daily Vinyasa flow or a specialty workshop, students are immersed in a quiet, peaceful environment where the only distractions are the gentle sounds of nature and the resident cats occasionally joining the class.
+[h2] Sandi Kalifadani
+[p] A Bali-based yoga teacher, musician, and DJ, Sandi Kalifadani has been a dedicated explorer of the yogic arts since 2002. His profound foundation in Iyengar Yoga (since 2005) and Ashtanga Mysore (since 2015) informs a teaching career that spans over two decades. Since 2006, Sandi has facilitated thousands of hours of classes, workshops, and teacher training programs (TTC) at premier studios across Indonesia and internationally throughout Asia and the Americas.
+[p] Sandi is the architect of Alignment Hatha, a signature style that harmonizes structural precision with creative sequencing. His methodology is defined by meticulous hands-on adjustments and the innovative use of props to make advanced practice accessible. Beyond physical postures, Sandi integrates a diverse background in mindfulness and healing arts—including Zen meditation, Jin Shin Jyutsu, Hypnotherapy, and NLP—into his sessions to foster mental and spiritual clarity.
+[p] In 2020, following years of teaching at Bali’s top institutions, Sandi founded Soul Yoga Bali in Ubud as a dedicated space for empowerment and community. When he is not on the mat guiding students through their personal transformations, Sandi continues his creative journey as a professional DJ and music producer, blending the rhythms of sound and movement.
+[h2] Sera
+[p] With a lifelong passion for movement, Sera transitioned from a successful career as a senior K-Pop and Pole Dance instructor in Korea and Australia to the profound world of yoga. Following a personal injury, she dedicated herself to the academic and therapeutic study of the discipline, earning a Bachelor’s degree in Yoga & Meditation from Wongwang University in Korea.
+[p] An esteemed member of the Korean Yoga Instructor Association, Sera has taught at Seoul’s most prestigious institutions. Her extensive expertise spans Hatha, Vinyasa, and Mahahatha, alongside a specialized focus on Prenatal, Postnatal, and Baby Massage—a passion stemming from her previous professional background as a certified baby planner.
+[p] Today, Sera is recognized as one of the few Recovering Yoga Masters in Korea. Having utilized these techniques for her own rehabilitation, she integrates the "Recovering" prop to complement traditional tools like straps and blocks, offering a uniquely effective approach to therapy and physical progress. Her classes often feature Inside Flow, where she beautifully bridges her dance heritage with modern yoga. As the co-founder of Soul Yoga Bali, Sera brings a compassionate, science-based, and rhythmic energy to the Ubud yoga community.
+```

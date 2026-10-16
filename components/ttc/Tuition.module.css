@@ -1,0 +1,162 @@
+.section {
+  padding-block: var(--space-section);
+}
+
+.light {
+  background: var(--cream-soft);
+}
+
+.cream {
+  background: var(--cream);
+}
+
+.grid {
+  display: grid;
+  gap: clamp(3rem, 6vw, 6rem);
+}
+
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.col {
+  min-width: 0;
+}
+
+.prices {
+  display: grid;
+  border-top: 1px solid var(--ink);
+  margin-bottom: 3rem;
+}
+
+.priceRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.priceLabel {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.priceValue {
+  font-family: var(--serif);
+  font-size: var(--t-h2);
+  line-height: 1.15;
+}
+
+.priceNote {
+  font-size: var(--fs-sm);
+  color: var(--grey-700);
+}
+
+.subhead {
+  font-size: var(--t-h3);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.9rem;
+}
+
+.highlights {
+  list-style: none;
+  border-top: 1px solid var(--rule);
+}
+
+.highlights li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif);
+  font-size: var(--t-body);
+  line-height: 1.4;
+}
+
+.highlights a {
+  color: var(--teal);
+}
+
+.scheduleCol {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: var(--teal);
+  color: var(--cream);
+  align-self: start;
+}
+
+@media (min-width: 960px) {
+  .scheduleCol {
+    position: sticky;
+    top: calc(var(--header-h) + 1.5rem);
+  }
+}
+
+.scheduleCol .subhead {
+  color: var(--accent);
+}
+
+.intro {
+  font-family: var(--serif);
+  font-size: var(--t-h4);
+}
+
+.timeline {
+  list-style: none;
+  margin-top: 1.5rem;
+  border-left: 1px solid var(--rule-light);
+}
+
+.timeline li {
+  position: relative;
+  display: grid;
+  gap: 0.15rem 1.25rem;
+  padding: 0.8rem 0 0.8rem 1.4rem;
+}
+
+@media (min-width: 560px) {
+  .timeline li {
+    grid-template-columns: 8.2rem 1fr;
+  }
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 1.25rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.time {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+.what {
+  font-family: var(--serif);
+  font-size: var(--t-body);
+  line-height: 1.35;
+}
+
+.detail {
+  display: block;
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  opacity: 0.8;
+  margin-top: 0.2rem;
+}
+
+.note {
+  margin-top: 1.25rem;
+  font-size: var(--fs-sm);
+  opacity: 0.85;
+}

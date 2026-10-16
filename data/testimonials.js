@@ -1,0 +1,374 @@
+// All 36 testimonials from the four original slideshows, in published order.
+// Generated verbatim from docs/source-audit/content/*.md (captured by clicking through
+// every slide). Text is unedited: do not translate, merge or paraphrase.
+// Each paragraph carries a BCP-47 language tag so it renders with the correct lang attribute.
+
+export const homeTestimonials = [
+  {
+    "name": "Jessy Ng",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I completed the 200H -YTT with Soul Yoga on Dec 2024, and I would say is the most amazing & fruitful 3weeks memories with them. This YTT course is not just mainly about yoga asanas only, we learnt in deep about ourselves, pranayama, meditation, the art of yoga alignment using various props & most importantly the way of living life. Thank You both Sandi & Sera for your dedication & genuine passion in sharing your knowledge and home with us ❤️\r"
+      }
+    ]
+  },
+  {
+    "name": "Andre Hartono",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Thank you Sandi and Sera, I have no idea how you two have changed my life. 200 YTT completed, 3 weeks in Soul Yoga and I definitely can say that Sandi and Sera is one of the best educators in the Yoga industry. A certification based on job description and definitely a certification that teaches you how to adjust, modify and regress. You two are definitely one of the best educators I have ever met!\r"
+      }
+    ]
+  },
+  {
+    "name": "손나현",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I completed the 200-hour YTT (Yoga Teacher Training) in October this year, and taking the course at Soul Yoga was absolutely the perfect choice. I truly believe that the three weeks I spent there were invaluable. I not only learned all the essential knowledge needed to become a yoga instructor, but I also gained so much from the daily asana practice. It wasn’t just about achieving the shapes of the poses, but about activating every part of my body to create the posture. It was challenging, but through it, I learned patience and developed the mindset that I could push through and succeed.\r"
+      }
+    ]
+  },
+  {
+    "name": "Mariia Gatina",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "The best decision of my year is to join Soul Yoga TTC program. So grateful for becoming the part of October batch. I’ve got knowledge, experience, clear mind, stronger body and the most important— people. Thank you Sandi and Sera for creating that vibe that all the students felt together as perfect match and family. I’ve received my certificate and have big plans for becoming a yoga teacher! Namaste 🙏🏻\r"
+      }
+    ]
+  },
+  {
+    "name": "Karen Wu",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I had the best 3 weeks at soul yoga practicing and learning ytt200 with Sandi and Sera! At the beginning, I found soul yoga from a blog article and thought the teachers are very experienced and focused on teaching, but the whole courses were so much more than that! I learned the knowledge, practiced my body, and trained my mind in so many different ways. I also love how they incorporate various aspects of yoga to expand our mindset. Most importantly, during this 3 weeks, we become friends and family. YTT200 hours isn’t easy, but I am grateful that I made this choice to study with Sandi and Sera, and made so many good friends here!\r"
+      }
+    ]
+  },
+  {
+    "name": "Simona Intaa",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Soul Yoga Bali IS the best yoga school in Ubud, and those 5-star reviews are spot on! Congrats, you found the school you were looking for right here :)) I completed the 200-hour YTT course, and it was life-changing. The location is magical—nestled in the rice fields, with sunrise views of the mountains that set the perfect tone for each day. The classes are top-notch, and the sense of community is truly special. Everyone is supportive, making it feel like a home away from home. If you're looking for an authentic, transformative yoga experience, Soul Yoga Bali is the place to be! Thank you, fam 💞\r"
+      }
+    ]
+  },
+  {
+    "name": "Daisy Liu",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "It’s a decent, intimate small group of YTT with good program and amazing teachers. Shout out to Sandi and Sera!!! The most powerful Balinese couple in Bali😍  They both have so much knowledge, passion and stories to share. Either about their personal life, career or love story, it’s very touching and motivating. No one is perfect, but when they are together they are the perfect combination, which helps this Soul Yoga School to get to a better and higher place. That’s why from this YTT we could feel their passion for yoga, for music and for their life!!\r"
+      }
+    ]
+  },
+  {
+    "name": "街頭故事",
+    "paragraphs": [
+      {
+        "lang": "zh-Hant",
+        "text": "來這裡參加師資培訓是我人生最棒的決定🥹🥹 老師專業認真、食物好吃、環境優美、貓咪可愛，我在這裡度過了像夢一樣的一個月🩵 不管是來參加早上的課程、或是加入師資培訓，或者是沒有接觸過瑜珈的人希望來聊聊，這裡都是最棒的選擇！\r"
+      }
+    ]
+  },
+  {
+    "name": "Роман Двойников",
+    "paragraphs": [
+      {
+        "lang": "ru",
+        "text": "Моя невеста проходила обучение преподаванию йоге в Soul Yoga, и мне также посчастливилось всегда здесь быть желанным гостем, проводить время с ребятами, пообщаться с мастерами своего дела Sandi и Sera, а также присутствовать на йога классе. Я в восторге от атмосферы в этой школе, знаний и опыта, которые передаются студентам. Я был лишь наблюдателем октябрьского потока, но почему-то я тоже ощущал себя в школе, как дома. Моя невеста сейчас безумно счастлива, что она получила свой сертификат именно здесь, а я счастлив за нее! Спасибо огромное, Soul Yoga School, мы очень скучаем и обязательно вернемся :)\r"
+      }
+    ]
+  },
+  {
+    "name": "품바",
+    "paragraphs": [
+      {
+        "lang": "ko",
+        "text": "Lovely Yoga Studio! 소울요가에서 200Hrs TTC과정을 마쳤습니다. 실력있는 강사님 두분의 에너지, 요가원 공간 자체에서 주는 편안함, 제공되는 맛있는 음식들 모든 것이 완벽했습니다. 다양한 소도구 사용법, 정렬과 핸즈온, 티칭에 대한 다양한 기술을 배울수있어요. 무엇보다도 요가가 무엇인지 제대로 알게된 시간이었습니다. 소규모로 진행되다보니 배움이 더 집중도 있고, 요가원에서 함께한 사람들과는 애틋한 한가족이 되었네요ㅎ 한달간 요가와 발리, 자신에 대해 더 깊이 알고싶은 분들 소울요가에서 TTC 강력추천합니다:) 한국에서는 아직 많이 알려지지 않은듯하지만 분명히 곧 유명해질 것 같으니 어서 첫열차 타세요!\r"
+      }
+    ]
+  }
+];
+
+export const yogaclassTestimonials = [
+  {
+    "name": "AMY - US",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Sandi is a phenomenal, world-class yoga teacher. I was lucky enough to be in a yoga teacher training with Sandi in Bali in 2017, and I enjoy his Zoom sessions this year. He is well-trained in so many yoga modalities (iyengar/shtanga/vinyasa/yin) and it shows in his detailed and on-point cues. His adjustments and attention to each student are personalized and spot-on. Even in the virtual Zoom environment, he is able to focus on each student and help each person grow as a yogi. There is always a pose that I'm able to go deeper into or that clicks with me -- every time -- this is a sign of a great teacher. I've found this unique from other teachers on Zoom and it's just truly special. My practice has grown immensely with Sandi and I look forward to a sweaty, challenging class every time I practice with him. I highly recommend Sandi as a yoga teacher and mentor.\r"
+      }
+    ]
+  },
+  {
+    "name": "TOMOMI - JAPAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I have taken Sandi’s yoga class from 3 months after giving birth.The sun salutation that takes place in the first half of the class is very comfortable, and the flow sequence incorporates poses that improve muscle strength and balance as well as flexibility, improving your yoga skills every time you take a class. By taking his class, you will improve your practice. He will give you advice according to your experience, so even beginners can take class with confidence.I think it's because of his classes that I have almost returned to my same body after six months postpartum. Sandi is a reliable yoga teacher who will make you want to take his class again.\r"
+      },
+      {
+        "lang": "ja",
+        "text": "産後3ヶ月から彼のヨガクラスに参加しました。クラス前半に行われる丁寧な太陽礼拝はとても心地良く、フローで流れるシークエンスには、柔軟性はもちろん、筋力、バランス力を向上させてくれるポーズが組み込まれており、クラスを受けるたびに確実にヨガスキルを向上させてくれます。経験に合わせてアドバイスをしてくれるので、初心者でも安心して受けることが出来ます。産後半年を過ぎる頃には、ほぼ元の体型に戻っていたのは彼のおかげでもあると思います。また受けたいと思わせてくれる、信頼できるヨガ先生です。\r"
+      }
+    ]
+  },
+  {
+    "name": "CHERYL - CANADA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "“I discovered yoga with Sandi when I was in Bali. Previously I had “dabbled” in yoga upon occasion however, I came and went back to the mat time and time again. After just a few classes with Sandi, I was inspired and made the decision to really commit to a yoga practice.\r"
+      },
+      {
+        "lang": "en",
+        "text": "Sandi is extremely knowledgeable and skilled. He provides clear, straight-forward instruction in a calm soothing manner. He has the ability to successfully lead a very multi-levelled class including true beginners all the way up to highly-seasoned practitioners. As a beginner myself I felt that he really understood my physical abilities and my limitations.\r"
+      },
+      {
+        "lang": "en",
+        "text": "I was fortunate to be able to practice with him in-person for three months in Bali. Now, although I am half-way around the world, I have been able to continue to strengthen my practice via live zoom classes. Practicing with Sandi has moved my yoga to another level. He has helped me understand not just the physical benefits of yoga but also the mental benefits of a well-rounded practice. I am eternally grateful for his teachings and I look forward to continuing to grow under his guidance.”\r"
+      }
+    ]
+  },
+  {
+    "name": "AYA - JAPAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I am an Ashtanga practitioner since 2018. I have started practicing Vinyasa with Sandi in May 2020. At the beginning, I was exhausted felt my strength and energy was not enough to complete his 90 min advanced classes. After 2 months of consistent practice with Sandi, I began to feel more energetic and less tired after 90 min of intensive Vinyasa class. His teaching methods are very practical and step by step. It is fun to see my practice improves and he gives me accurate guidance and feedbacks. I have not practiced Ashtanga for 3 months, but now I am able to do some of the challenging asanas effortlessly which I had been struggling for 2 years. His sequence is very helpful to deepen the basic asanas which eventually leads to more advanced ones.\r"
+      }
+    ]
+  },
+  {
+    "name": "IKUMI - JAPAN",
+    "paragraphs": [
+      {
+        "lang": "ja",
+        "text": "日本でヨガインストラクター を目指していた2年前。大好きなバリでたくさんヨガをしたい！と思い、バリに渡り、参加したのがウブドのヨガスタジオで行われている彼のヴィンヤサクラスでした。アイアンガー、アシュタンガベースで進められていく彼のクラスは、椅子や柵など身近にある様々なプロッフスを使用し、\r\n正しいアライメントへ導き、より深める方法を教えてくれました。\r\n日本のクラスとは一味も二味も違う愛に溢れた先生のクラスです。\r"
+      }
+    ]
+  },
+  {
+    "name": "TSENG VIVIAN - TAIWAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I stayed in Ubud for three weeks and discovered Soul Yoga through my favorite teachers, Sandi and Sera. The studio is along a beautiful path through rice fields, with a calm atmosphere and clean, well-maintained equipment. Sandi is one of the best teachers I’ve met. His adjustments are gentle yet precise, helping you deepen your practice safely. I joined his 7:00 AM Hatha alignment class three times, and every class was different and insightful. Props are used in a way that makes your practice deeper and safer. Sandi and Sera are truly warm and genuine people—I feel so lucky to have met them. Bonus: there are lots of adorable cats in the studio, making class feel like a pet yoga session—super healing! 😻 Highly recommend if you’re in Ubud and want to deepen your yoga practice.\r"
+      }
+    ]
+  },
+  {
+    "name": "LUTZ GRIMM - SWITZERLAND",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Soul Yoga Studio is an absolute gem and fully deserves 5 stars from me! The tranquil atmosphere and the beautiful space, complete with all sorts of props, nestled amidst the rice paddies, make every visit a truly restorative escape. Outstanding Teacher: Sandi Sandi is a truly exceptional yoga teacher who masterfully, precisely, and gracefully blends Vinyasa and Hatha Yoga flows. His classes are dynamic yet accessible, offering the perfect balance between strength, highly precise instructions for each asana, and a mindfully coordinated sequence, leaving you feeling energized and centered. What makes his teaching so special is also his expertise in Thai Yoga Massage—his intuitive adjustments and therapeutic touch during class provide deep relaxation and alignment, tailored to every level. Why 5 stars? From the personalized attention to Sandi's infectious passion, this studio transforms yoga practice into pure bliss. Highly recommended for anyone seeking authentic yoga and healing in Bali!\r"
+      }
+    ]
+  },
+  {
+    "name": "MADELEN LEEK - SWEDEN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Soul Yoga speak an authentic language of devotion & alignment when it comes to the practice on the yoga mat. I’m so happy I found this amazing place & Sandi & Seras teaching. I felt so warmly welcomed by them & coming away from the bigger yoga studios into another more quite environment for the practice. I was searching for a more traditional way of teaching Hatha Yoga & I definetly find the right spot. I feel the experience & passion for the teachings they share. The practice on the mat is safely guided using props like chairs & blocks to suit all body types to get the best out of the practice. I would warmly recommend Soul Yoga to everyone who wants to explore the asana practice more deeply.\r"
+      }
+    ]
+  }
+];
+
+export const ttc200Testimonials = [
+  {
+    "name": "YIXIN YU - CHINA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Completed my YTT200h and Recovering 15h at Soul Yoga last week. It was an amazing journey. I joined with the intention to deepen my practice but I learnt much more than that. Sandi and Sera have belief and confidence in every student and try their best to train us to be good yoga teachers (even when I didn’t have confidence in myself). Through the training, I not only learnt more about yoga, but also more understanding of my own body and myself. I now know what I should do and what I should avoid and that will be very useful in my future yoga practice. Apart from yoga, I enjoyed the company of 5 lovely cats, especially Tira (my love!!) and the beautiful rice field view. I also enjoyed every meal (great vegetarian food and a wide variety) and the break time spent at Sandi and Sera’s living room (thanks to the hosts ❤️). Last but not least, I met great classmates and had a wonderful time training with them. It was a truly memorable experience and I am looking forward to coming back to Soul Yoga for more alignment Hatha in the future.\r"
+      }
+    ]
+  },
+  {
+    "name": "JJ BUSBEE - NETHERLAND",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I just finished my 200 hours YTT course here in July. Everything still feels so fresh, like yesterday... I came to Soul Yoga to deepen my practice, after a period of falling out of love with yoga due to personal reasons. I have to say that I definitely achieved my goal and gained so much more in the process. <3 Soul Yoga (@soulyogabali) has an unique location. It is a small house that's surrounded by rice fields and full on nature. It doesn't have fancy facilities and comercialized atomosphere (if that's your thing, look elsewhere), but it has a personal touch and a feeling of home. It is a place that I'll forever associate with Peace and Joy. Food is important!!! For YTT, Soul Yoga has the catering from the amazing @made_by_juliaaa (check out her instagram). Delicious vegetarian food everyday, doesn’t even repeat! I am not a vegetarian, but I can become one here. :p Teachers: Sandi and Sera are a couple who love yoga, love people and love life in general. Their ways of living come through the ways they teach yoga. Sandi is knowledgable, patient, caring, and funny (in the least expected ways). Sera is brave, passionate, and detail-oriented. Their one and only guest teacher (also a former YTT student from here) Asel is also phenomenal, gentle but firm, quiet yet powerful. The teachers try their hardest to pour their hearts and knowledge into you in the 3 weeks (can be intense, but definitely fruitful). Whether you are just passing by Ubud, and wanting an unique experience of yoga in the nature, or you would like to become a yoga teacher/deepen your practice, Soul Yoga is a great choice, because it really is from and to the SOUL. :)\r"
+      }
+    ]
+  },
+  {
+    "name": "NINA WIRYANTO - JAKARTA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I joined Soul Yoga to deepen my practice, expecting a relaxed retreat—but what I got was so much more! The training was intense yet incredibly rewarding, filled with so much knowledge and new information to process. I didn't join to become a teacher, as I never pictured myself leading a class. The idea actually made me a bit anxious! But thanks to the well-structured program and the way the teachers eased us into it, I started to teach naturally, almost without realizing it. The vibe here is so uplifting, with an energy that's both positive and healing. This wasn’t just a yoga training; it felt like a journey that balanced growth and self-discovery. These three weeks have been some of the best of my life, and I’m so glad I chose Soul Yoga over other schools. The teachers Sandi and Sera are incredible, each bringing their own unique style—from Inside Flow to Recovery and Alignment yoga. I wouldn’t have discovered these different styles without Soul Yoga, and they’ve been so eye-opening for my practice. Outside of training, they keep it fun and balanced with activities like sunset watching, Saturday parties, herbal saunas, and peaceful rice field walks. Soul Yoga is more than a school; it's a place that genuinely cares for both your growth and well-being.\r"
+      }
+    ]
+  },
+  {
+    "name": "LIN YU-EN - TAIWAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "From in person class in Bali, to online classes during Covid, followed by online YTC when I was 1.5 yrs experienced. I have been following Sandi’s teaching because I feel my passion for yoga gradually grow and so my progress. Practicing yoga with him gives me a secure feeling. All I need to do is to show up and be there. He doesn’t let me be lazy or pressured, but encourages with caring and his kind of humor, to accomplish what I thought I couldn’t but actually able to. I have the feeling that he believes and has patience for me more than I do for myself.\r"
+      },
+      {
+        "lang": "en",
+        "text": "YTC program brings me not only knowledge of the curriculum, but also makes me rooted on the foundation so I can get further. Besides the classes, he answered every question I messaged him, and often offered 1 by 1 extra meeting. His knowledge, experience and responsibility make me respect him as a teacher, while his characters and even his DJ identity make him also like a lovely friend.\r"
+      },
+      {
+        "lang": "zh-Hant",
+        "text": "從在峇里島上Sandi的課找到對瑜珈的喜愛，到疫情期間跟著他的線上課養成每週至少做兩次瑜珈的習慣，到有了一年半瑜珈經驗時，參加了他的線上師資課程。我喜歡跟著Sandi練習，因為我除了發現自己的熱情，也看到自己的進展，跟著他讓我很放心。他不會讓學生散漫或是感到壓力，而是會用夾雜著幽默感的關愛，鼓勵我達成原本以為不行但其實做得到的事。我甚至覺得他對我的信念以及耐心，比我給自己的更多。\r"
+      },
+      {
+        "lang": "zh-Hant",
+        "text": "上完師資除了課程本身的收穫，也為我的瑜珈練習打了穩固的底，讓我藉此在之後可以走得更遠更穩；而在上課之外，他也回答每個我私訊他的問題，甚至經常主動提議一對一的加強練習。他的知識、經驗和責任感讓我尊敬，他的性格則讓我感覺親近；更何況他還有DJ的身份，種種特質使他成為亦師亦友。\r"
+      }
+    ]
+  },
+  {
+    "name": "HYONIE - SOUTH KOREA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I completed the YTT program at Soul Yoga in July 2024, and it was hands down the best decision I made this year. After leading a hectic life with little time for self-care, I took a month off to focus on myself and dive deeper into yoga. The experience was transformative. When I returned to work, I felt more relaxed, mindful of my body, and better able to concentrate. During my stay in Ubud, I explored several yoga centers, but Soul Yoga stood out. The focus here is on integrating yoga into your life, with a strong emphasis on proper alignment and healthy asanas. Teacher Sandi was incredible, constantly reminding us that yoga is about more than just cool poses. It’s about finding joy in the process and making yoga a part of daily life. I’m proud to have learned the essential mindset of a yoga teacher here. I’ve been into various forms of exercise for years, but my body started to feel imbalanced, and I experienced pain in different areas. At Soul Yoga, I learned to practice deeply without compromising my physical health. Sandi and Assel showed us how to maintain alignment and use props confidently, something I hesitated to do before. My asanas have become much more precise, and I feel a significant improvement in my overall physical condition. Even if you don’t do YTT, I highly recommend their Alignment Hatha and Stretch & Release classes—you’ll feel every cell in your body wake up! Sera is another fantastic teacher, passionate about therapy and movement. If you’re interested in exploring different types of yoga, like Aromatherapy and Inside flow, you won’t find a better place. Beyond the classes, Sandi and Sera were amazing hosts. They always treated us to delicious vegan food and desserts. The spa experience, complete with a breathtaking sunset, was unforgettable. The sense of community here was so strong; I made lifelong friends who were warm, supportive, and just lovely to be around. It is such a blessing to have a home in Ubud.\r"
+      }
+    ]
+  },
+  {
+    "name": "TALINA - POLAND",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I had an unexpected amazing journey in Soul Yoga School! I attended the RYT200 hour yoga teacher training here with Sandi, Sera, my lovely soul sisters and meow meow. Sandi and Sera organized the course very well! Everyday is full of knowledge, effort, encouragement and laughs in the class. Love it! It is not just about asanas, it also about focus about yourself and care people around you. There are lots of different aspects in yoga. Sandi and Sera delivered the lessons very interesting and encouraged us to ask questions which made me more curious to know more about the history and philosophy of yoga! Even though this is a training course for yoga teacher, I felt no pressure and stressful. Instead, I felt lots of possibilities, diversity, challenges but exciting and fruitful. I really enjoy the class and wanna put them into my class and sequence. Not gonna lie, I felt surrounding by love and caring in soul yoga school which I haven’t experienced in the yoga school in Hong Kong. I like my classmates, teachers and cats. It definitely is my home in Ubud!!! (My heart chakra now is super open here lolll)In soul, I find my passions in yoga, my confidence and my truth self. If you are planning to attend RYT200 hour training course or just interested to learn more knowledge about yoga or like small studio (definitely it’s not commercial studio which I like it so much), highly recommended you to try Sandi and Sera classes (to try if their styles and teaching match with your expectations or preference first). If you like it, don’t hesitate to go for the training course in Soul Yoga School. It would definitely an unforgettable experience for you in Ubud, Bali. (Most important thing is your desire to learn, enjoy and put effort!) Overall ‘SOUL’ for me is: good yoga school, good food, good courses, good vibe, good teachers, good classmates, good place, cute meow meow🤘🏻 To my soul brother and sisters in SOUL, Let’s rock yoga together❤️And Thanks you guys for sharing positive energy and experience to me🫶🏼\r"
+      }
+    ]
+  },
+  {
+    "name": "JIE - BELGIUM",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Doing the YTT with Soul Yoga was the best decision ever. Sandi is very knowledgeable about yoga in general (also pranayama, meditation, etc.) and always wants to share all his knowledge with us during and outside of the training. He put a lot of effort into his students, in the adjustments and the cues of asanas. He pushed us to surpass ourselves in every pose on every occasion; I really felt that I became more flexible and stronger. Sandi can also adapt his teaching very well to various levels, from beginners to more advanced yogis, offering plenty of variations to accommodate every person's physical abilities and injuries. During the training, Sandi also gave us the chance to try out and explore various types of yoga practices, from more traditional ones hatha, ashtanga, yin to more modern ones such as vinyasa, power flow, insight flow, etc. What I loved the most about the training is the numerous occasions each one of us got to really teach a yoga class. Experience comes through practice and at Soul Yoga, I was given the chance to do that in a safe environment. I am grateful to have participated in this YTT as it really helped me understand all facets of yoga, push my yoga and understanding to the next level and acquire a complete set of skills to become a good yoga teacher.\r"
+      }
+    ]
+  },
+  {
+    "name": "TING ZHU - TAIWAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I completed my YTT200 at Soul in the July cohort just a couple days ago, and to say that the journey was a life-changing experience would be an understatement. Over three weeks, I’d made more friends (my YTT classmates and those that dropped in for morning classes you know who you are!) that I know that I would keep in touch with way beyond the program itself, met mentors that pour their hearts and SOULs into designing the training and making sure all are welcome and well cared for, and found a home that I know I would constantly long to return to whenever I think of Bali. The training itself is rigorous but at the same time packed with laughters, occasionally tears, and always love. The teachers (Sandi, Sera and ofc Asel!) give detailed explanations for asanas especially concerning alignment, and not only teach the yoga philosophy but practice what they preach in their day-to-day actions. You can immediately feel that they are kind, selfless, brave individuals that inspire everyone to do good and exceed our own limits. I left the program feeling physically and mentally stronger, and the teaching certificate feels more like a by-product rather than an end goal. I will be forever grateful for the time I spent here, and come back for more practices in my future Bali visits. You won’t regret dropping by here simply for the morning classes, or the YTT if that’s what you are looking.\r"
+      }
+    ]
+  },
+  {
+    "name": "WAKANA - JAPAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I’ve been having the absolute pleasure moments with Sandi during YTT as well as both online vinyasa & hatha classes. Actually it was my 2nd time of YTT experience, but knowing, my yoga life as a practitioner and as a teacher is nothing without them\r"
+      },
+      {
+        "lang": "en",
+        "text": "His asana videos which focus on alignments designed for both beginner and advanced level. Weekly teaching video submission which gave me confidence to teach. His passionate, motivated and lovely character.\r"
+      },
+      {
+        "lang": "en",
+        "text": "If you want to become an instructor, if you want to increase your own class level up, even if you want to challenge asanas which you avert your eyes, I highly recommend his YTT. I promise he will spark inspiration towards you.\r"
+      }
+    ]
+  },
+  {
+    "name": "DIAN DAMAITA - JAKARTA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I learned so much during my teacher training program. Soul Yoga Bali's teacher training program is focused on our teaching skill, not just in our personal yoga skills. We are provided with many opportunities where we must practice teaching a class, which is great. Soul Yoga Bali also teach us a variety of yoga styles, in which helps us to recognize which styles are more suitable for our teaching style. So after the program is finished, I feel confident to teach yoga class, because we've been through some series of actual teaching classes. Even after the program, Sandi is still continuously provide us with 1 on 1 sessions for consulting in our teaching progress. I highly recommend Soul Yoga Bali to everyone who seriously consider about being a yoga teacher, they really help the students with the confidence needed in teaching. :)\r"
+      }
+    ]
+  }
+];
+
+export const ttc300Testimonials = [
+  {
+    "name": "JENNY - UNITED STATES",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "When I was shopping around for a YTT program in ubud, I immediately noticed a difference compared to other schools in just our online correspondence— I was talking to Sandi himself, and not a secretary. That is the level of ownership and personal investment that Sandi and Sera put into this school, which is literally part of their home. This school is an extension of themselves, and they are sharing the best parts of their soul with us. Their teachings include the necessary curriculum to be recognized by Yoga Alliance, but it also includes lessons from their life, human to human. These lessons are the ones I will treasure forever. The teachers and students part of the program were all authentic, kind, hardworking, and positive. It was a refreshing group of people that were not concerned with the gimmicky parts of yoga that we see in much of the western world today. The lessons were also extremely practical, while still remaining interesting and honoring the origins of yoga. As a multidisciplinary athlete, I had two old injuries that left my shoulder and ankle feeling weak, with reduced mobility, and in pain for the past year. I maintained an active lifestyle and went to physical therapy, but there was little improvement, and I felt as though this was just how my life was going to be until I committed to surgery. Sandi reassured me that I would be able to attend this course with my injuries. After the 3 weeks of participating in Soul Yoga’s YTT, I can say these all improved dramatically. I even felt a difference after the first week! I believe Soul Yoga’s focus on alignment contributed to my recovery in a big way. I feel empowered and energized to continue practicing for my own recovery and health and share the benefits of yoga to my friends and family. Thank you Sandi and Sera 🙏🏼💚\r"
+      }
+    ]
+  },
+  {
+    "name": "XIAYOU CHEN - CHINA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "If you are looking for 200TTC/300TTC in Bali, I believe Soul Yoga is a good choice（for me the best😆)~ For the past half year, I have been looking for a spiritual environment, capable and responsible institutions and teachers, until I heard about Sandi and Sera in Bali. I learned from others that they have rich teaching experience and training experience. I came here with anticipation. After several regular morning classes, I could feel their ability and energy. Halfway through the training, I knew that what they gave me far exceeded my expectations. They were also teachers and friends. They not only shared their views on yoga, taught us the experience of yoga teaching, and treated us like family. Open, bright and optimistic, always face life and us with love and patience. I know that yoga has always been a person's journey. I don't start with soul yoga, and this is not the end. But I'm very happy that this has become an important node and harbor in my yoga journey. I'm very happy to meet my company here. Next time I come back to Ubud, I will be back to Soul Yoga to practice~ I also hope to meet you💕\r"
+      }
+    ]
+  },
+  {
+    "name": "ALEXANDER READ - AUSTRALIA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I feel so lucky to have found Soul Yoga in Ubud. There are so many options for 200 hr YTT so it can be hard to decide but this studio offered everything I wanted out of a teacher training and more. Sandi and Sera have developed an amazing teaching program that delivers very deep knowledge of the practice in a very accessible and friendly way. They are incredibly knowledgeable and passionate about yoga and enable you to explore and discover your own passion and meaning for your practice. The classes were able to challenge you and allow you to explore your limits in a safe and supported way. Nothing was too challenging when experienced with all the humour and lightness of this studio. The home of their studio is beautiful and tranquil and I experienced so much bliss and joy. It was honestly a truly nourishing and transformative experience. Everyone in the training was lovely and open and the food was amazing. I learned so much here and grew as a human. Because of the training I am maintaining good daily habits developed here and an almost daily yoga practice. If you are considering a 200hr YTT I couldn't recommend Soul Yoga more highly. If you want to teach yoga you will feel capable and confident after this training.\r"
+      }
+    ]
+  },
+  {
+    "name": "JU QIU - CHINA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I just finished my 200hr Yoga Teacher Training at Soul Yoga School and it was honestly one of the most meaningful experiences I’ve had. What makes this place very different from many big commercial YTT programs is that it truly feels personal. The training takes place in the home of the founders, Sandi and Sera, and they literally open their home to the students. From the first day, we were treated more like friends and family than just participants in a course. That created a really warm, supportive environment for learning. You can tell that Sandi and Sera have put a lot of heart and thought into designing the curriculum. Of course we practiced yoga every day, but the training went far beyond just learning poses. They shared their personal journeys, experiences, and challenges, which helped us understand yoga not only on the mat but also as a way of living. I learned a lot about yoga philosophy, how to approach challenges in life, and what it really means to carry the spirit of yoga into daily life. The yoga practice itself is Iyengar-based Hatha yoga, with a strong focus on alignment and the use of props to deepen the practice safely. We also learned how to offer hands-on adjustments for students of different levels, which was incredibly valuable for teaching. Another highlight was the food. Two meals were provided every day, with lots of variety in flavors and ingredients. The meals were balanced and nourishing, and even as someone who normally eats meat, I never felt like I was missing anything. Overall, Soul Yoga School offers a very genuine and thoughtful teacher training experience. If you’re looking for a place that feels authentic, personal, and deeply rooted in the true spirit of yoga, this is a very special place to learn.\r"
+      }
+    ]
+  },
+  {
+    "name": "FAN YOU - TAIWAN",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "I just completed the 200-hour Yoga Teacher Training with Soul Yoga, and it was truly one of the best decisions I’ve ever made. The three weeks of training were thoughtfully structured with a clear schedule and weekly goals — challenging, but exactly what we needed to build the knowledge and skills to begin our journey as yoga teachers. Sandi, Sera, and all the teachers put their hearts into designing the curriculum and teaching us with so much love and passion for both yoga and life. Each teacher brought their own unique strengths, and I learned something valuable from every single one of them. Soul Yoga is not just a studio — it’s a home. I felt so welcomed by Sandi and Sera, who showed us their true selves and created a warm, supportive space for everyone. They also organized wonderful activities that helped our group connect and become like a little family. Thank you so much for this beautiful journey. 🙏✨ P.S. You’ll also have Tiramisu, Cookie, Jelly, Oreo, and Pie (not so much) keeping you company on the mat — they’re the best companions! 🐾 Food? Absolutely delicious! 🍲💛\r"
+      }
+    ]
+  },
+  {
+    "name": "ALICJA FURMAN - GERMANY",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Amazing studio that feels like home. I joined the 200-hour YTT in April 2024 and cannot recommend this place enough. It was a life-changing experience. I learned a lot during these 21 days and feel much more confident in my teaching skills. Sera and Sandi are very knowledgeable and passionate teachers. They are also caring and supportive—the atmosphere during training was truly amazing. During training, we learned about different styles of yoga, meditation and pranayama, yoga history and philosophy, anatomy, and much more. From day one, we were practicing teaching. The studio is located in the middle of rice fields, so you are surrounded by nature. The shala is full of light and has a beautiful view. I miss watching sunrises there. If you are in Ubud, you should take one of their daily morning classes—you won't regret it! :)\r"
+      }
+    ]
+  },
+  {
+    "name": "WEI QI HO - MALAYSIA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "Such a lovely hidden yoga studio in Ubud💚 Love the home studio concept and and enjoy the ambience surrounded by rice fields. Throughout the past 3 weeks of the YTT programme, with the guidance of Sandi and Sera has undoubtedly broadened my perspective on yoga and deepened my yoga’s knowledge too. Most importantly, they curated the programme with a lot of teaching practices which also made us become more confident, more comfortable on creating our own sequences, and gain deeper insights into teaching. Started to miss those intensive practice in the morning and lovely moments with my fellow classmates, looking forward to practice in the studio again🙆‍♀️\r"
+      }
+    ]
+  },
+  {
+    "name": "EMMA DATTU - INDONESIA",
+    "paragraphs": [
+      {
+        "lang": "en",
+        "text": "200 Hour YTT at Soul Yoga strengthened both my understanding and practice of yoga. I love how authentic the teachers, the space, and the students are — even the cats, who never fail to lighten the mood. Sandi and Sera are truly the heart of the program. They welcomed us and guided us, each of us starting from different points. We got to know them personally and culturally, and it was fascinating to learn about yoga in Bali from both local and international perspectives. The materials and delivery are thoughtfully designed to build a philosophical foundation while preparing us to begin teaching practice or deepen our practice. I also appreciated being able to ask for adjustments that supported my own physical limitations. Our batch was a great size, with students from diverse backgrounds. None of us had the exact same level of yoga ability, yet we remained supportive and positive throughout the entire training. We also get to interact with locals who offered their best services, such as nourishing vegetarian food, herbal drinks, and even massage. This experience helped me realign both mentally and physically. I’d love to return and continue practicing the next time I’m in Ubud. 😊\r"
+      }
+    ]
+  }
+];
+
+export const allTestimonials = [...homeTestimonials, ...yogaclassTestimonials, ...ttc200Testimonials, ...ttc300Testimonials];
